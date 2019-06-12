@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bmh_commons" />
+        <module name="bmh_dao" />
+        <module name="bmh_data_init" />
+        <module name="bmh_pojo" />
+        <module name="bmh_rope_interface" />
+        <module name="bmh_rope_service" />
+        <module name="bmh_rope_web" />
+        <module name="bmh_rope_web2" />
+        <module name="fastdfs_demo" />
+        <module name="generatorProject" />
+        <module name="redis_demo" />
+        <module name="springDataRedis_demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bmh_rope_service2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

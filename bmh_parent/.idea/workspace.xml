@@ -1,0 +1,1053 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5bb944eb-e2df-4457-a34a-c0860005912e" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/bmh_commons/target/" />
+    <ignored path="$PROJECT_DIR$/bmh_pojo/target/" />
+    <ignored path="$PROJECT_DIR$/bmh_dao/target/" />
+    <ignored path="$PROJECT_DIR$/bmh_rope_interface/target/" />
+    <ignored path="$PROJECT_DIR$/bmh_rope_service/target/" />
+    <ignored path="$PROJECT_DIR$/bmh_rope_web/target/" />
+    <ignored path="$PROJECT_DIR$/../generatorProject/target/" />
+    <ignored path="$PROJECT_DIR$/bmh_rope_service2/target/" />
+    <ignored path="$PROJECT_DIR$/bmh_rope_web2/target/" />
+    <ignored path="$PROJECT_DIR$/../fastdfs_demo/target/" />
+    <ignored path="$PROJECT_DIR$/../redis_demo/target/" />
+    <ignored path="$PROJECT_DIR$/../springDataRedis_demo/target/" />
+    <ignored path="$PROJECT_DIR$/bmh_data_init/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../redis_demo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../redis_demo/src/main/java/RedisDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bmh_dao/src/main/java/com/bmh/mapper/BoxBasicMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/java/com/bmh/rope/controller/BrandController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/java/com/bmh/rope/UserDetailsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/java/com/bmh/rope/controller/HistoryHoldsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/webapp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bmh_rope_web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Seller</find>
+      <find>insert</find>
+      <find>系统</find>
+      <find>索道日</find>
+      <find>./</find>
+      <find>sellerModal</find>
+      <find>findO</find>
+      <find>updateS</find>
+      <find>baidu</find>
+      <find>pages</find>
+      <find>clientService</find>
+      <find>seller</find>
+      <find>spring/spring</find>
+      <find>fastd</find>
+      <find>form</find>
+      <find>录入</find>
+      <find>day.</find>
+      <find>日期</find>
+      <find>rope</find>
+      <find>Rope</find>
+      <find>HistoryHolds</find>
+      <find>entity</find>
+      <find>编辑</find>
+      <find>Area Chart</find>
+      <find>redis</find>
+      <find>solr</find>
+      <find>抱索器编号</find>
+      <find>key</find>
+      <find>searchEntity</find>
+      <find>https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>entryDate</replace>
+      <replace>ropeMapper</replace>
+      <replace>Rope</replace>
+      <replace>rope</replace>
+      <replace>HistoryHolds</replace>
+      <replace>historyHolds</replace>
+      <replace>historyHoldsService</replace>
+      <replace>holds</replace>
+      <replace>./</replace>
+      <replace>clientMapper</replace>
+      <replace>Client</replace>
+      <replace>../../</replace>
+      <replace>client</replace>
+      <replace>maintain</replace>
+      <replace>Maintain</replace>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../fastdfs_demo/src/main/resources/fdfs_client.conf" />
+        <option value="$PROJECT_DIR$/../fastdfs_demo/src/main/java/FastDfsTest.java" />
+        <option value="$PROJECT_DIR$/bmh_rope_web/src/main/webapp/js/service/uploadService.js" />
+        <option value="$PROJECT_DIR$/bmh_rope_web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/bmh_commons/src/main/java/utils/FastDFSClient.java" />
+        <option value="$PROJECT_DIR$/bmh_rope_web/src/main/java/com/bmh/rope/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/bmh_rope_web/src/main/resources/config/application.properties" />
+        <option value="$PROJECT_DIR$/bmh_rope_web/src/main/webapp/pages/typein/simple.html" />
+        <option value="$PROJECT_DIR$/bmh_rope_web/src/main/webapp/js/service/maintainService.js" />
+        <option value="$PROJECT_DIR$/bmh_rope_web/src/main/java/com/bmh/rope/controller/MaintainController.java" />
+        <option value="$PROJECT_DIR$/../generatorProject/src/main/java/com/bmh/pojo/Maintain.java" />
+        <option value="$PROJECT_DIR$/bmh_rope_interface/src/main/java/com/bmh/rope/service/MaintainService.java" />
+        <option value="$PROJECT_DIR$/bmh_rope_service/src/main/java/com/bmh/rope/service/impl/MaintainServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bmh_rope_web/src/main/webapp/js/controller/simpleController.js" />
+        <option value="$PROJECT_DIR$/bmh_rope_web/src/main/webapp/js/controller/maintainController.js" />
+        <option value="$PROJECT_DIR$/bmh_pojo/src/main/java/com/bmh/pojo/Maintain.java" />
+        <option value="$PROJECT_DIR$/bmh_rope_web/src/main/webapp/pages/typein/maintain.html" />
+        <option value="$PROJECT_DIR$/bmh_rope_web/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/bmh_pojo/src/main/java/com/bmh/pojo/BoxBasic.java" />
+        <option value="$PROJECT_DIR$/../redis_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/../redis_demo/src/main/java/RedisDemo.java" />
+        <option value="$PROJECT_DIR$/../springDataRedis_demo/src/main/resources/redis-config.properties" />
+        <option value="$PROJECT_DIR$/../springDataRedis_demo/src/main/resources/applicationContext-redis.xml" />
+        <option value="$PROJECT_DIR$/../springDataRedis_demo/src/main/java/ValueTest.java" />
+        <option value="$PROJECT_DIR$/../springDataRedis_demo/src/main/java/HashTest.java" />
+        <option value="$PROJECT_DIR$/../springDataRedis_demo/src/main/java/ListTest.java" />
+        <option value="$PROJECT_DIR$/../springDataRedis_demo/src/main/java/SetTest.java" />
+        <option value="$PROJECT_DIR$/bmh_commons/src/main/resources/spring/applicationContext-redis.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../generatorProject/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/bmh_data_init/pom.xml" />
+        <option value="$PROJECT_DIR$/bmh_data_init/src/test/java/SpringDataSolrTest.java" />
+        <option value="$PROJECT_DIR$/bmh_pojo/src/main/java/com/bmh/pojo/TbItem.java" />
+        <option value="$PROJECT_DIR$/bmh_rope_web/src/main/webapp/js/service/historyHoldsService.js" />
+        <option value="$PROJECT_DIR$/bmh_rope_web/src/main/java/com/bmh/rope/controller/HistoryHoldsController.java" />
+        <option value="$PROJECT_DIR$/bmh_rope_interface/src/main/java/com/bmh/rope/service/HistoryHoldsService.java" />
+        <option value="$PROJECT_DIR$/bmh_pojo/src/main/java/com/bmh/pojo/HistoryHolds.java" />
+        <option value="$PROJECT_DIR$/bmh_data_init/src/main/java/SolrManager.java" />
+        <option value="$PROJECT_DIR$/bmh_rope_web/src/main/webapp/js/controller/historyHoldsController.js" />
+        <option value="$PROJECT_DIR$/bmh_rope_service/src/main/java/com/bmh/rope/service/impl/HistoryHoldsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/manage/manage.html" />
+        <option value="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/manage/check.html" />
+        <option value="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/documentation/build/index.html" />
+        <option value="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/documentation/index.html" />
+        <option value="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/tables2/simple.html" />
+        <option value="$PROJECT_DIR$/bmh_rope_web/src/main/webapp/documentation/build/index.html" />
+        <option value="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/charts/chartjs.html" />
+        <option value="$PROJECT_DIR$/bmh_rope_web/src/main/webapp/documentation/index.html" />
+        <option value="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/UI/sliders.html" />
+        <option value="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/tables2/data.html" />
+        <option value="$PROJECT_DIR$/bmh_rope_web/src/main/webapp/pages/tables/baosuoli_data.html" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\MyWorkspace\Repository" />
+        <option name="mavenHome" value="C:/MyProgram Files/SaaS/Develop/maven/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="C:\MyProgram Files\SaaS\Develop\maven\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="435" />
+    <option name="y" value="100" />
+    <option name="width" value="1380" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bmh_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bmh_parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560235281788" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../leetcode" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.bmh.rope.service.impl" />
+      <recent name="com.bmh.mapper" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.bmh.rope.service.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MyWorkspace\IdeaProjects\suodao1\workspace\bmh_parent\bmh_rope_service\src\main\resources\spring" />
+      <recent name="C:\MyWorkspace\IdeaProjects\suodao1\workspace\bmh_parent\bmh_pojo\src\main\java\com\bmh\pojo" />
+      <recent name="C:\MyWorkspace\IdeaProjects\suodao1\workspace\bmh_parent\bmh_dao\src\main\java\com\bmh\mapper" />
+      <recent name="C:\MyWorkspace\IdeaProjects\suodao1\workspace\bmh_parent\bmh_data_init\src\main\resources\spring" />
+      <recent name="C:\MyWorkspace\IdeaProjects\suodao1\workspace\bmh_parent\bmh_commons\src\main\resources\config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bmh.rope.service.impl" />
+      <recent name="com.bmh.rope.service" />
+      <recent name="com.bmh.rope.controller" />
+      <recent name="com.bmh.mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MyWorkspace\IdeaProjects\suodao1\workspace\bmh_parent\bmh_dao\src\main\resources\com\bmh\mapper" />
+      <recent name="C:\MyWorkspace\IdeaProjects\suodao1\workspace\bmh_parent\bmh_rope_service\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.bmh_rope_web">
+    <configuration name="SolrManager.initSolrData2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bmh_data_init" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SolrManager" />
+      <option name="METHOD_NAME" value="initSolrData2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bmh_rope_service " type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/bmh_rope_service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="bmh_rope_web" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/bmh_rope_web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="bmh_rope_web2" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/bmh_rope_web2" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SolrManager.initSolrData2" />
+      <item itemvalue="Maven.bmh_rope_service " />
+      <item itemvalue="Maven.bmh_rope_web" />
+      <item itemvalue="Maven.bmh_rope_web2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SolrManager.initSolrData2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5bb944eb-e2df-4457-a34a-c0860005912e" name="Default Changelist" comment="" />
+      <created>1558403984223</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558403984223</updated>
+      <workItem from="1558403988131" duration="17918000" />
+      <workItem from="1558443755292" duration="98257000" />
+      <workItem from="1559194669162" duration="5284000" />
+      <workItem from="1559524437795" duration="12057000" />
+      <workItem from="1559625386807" duration="9221000" />
+      <workItem from="1559711320804" duration="13811000" />
+      <workItem from="1560127728493" duration="18205000" />
+      <workItem from="1560230601645" duration="543000" />
+      <workItem from="1560231236673" duration="1693000" />
+      <workItem from="1560233211904" duration="246000" />
+      <workItem from="1560233801446" duration="2068000" />
+      <workItem from="1560316509060" duration="1670000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SolrManager_main - 2019.06.10 at 13h 38m 51s.xml">
+      <configuration name="SolrManager.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolrManager_initSolrData - 2019.06.10 at 13h 40m 04s.xml">
+      <configuration name="SolrManager.initSolrData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolrManager_initSolrData - 2019.06.10 at 14h 09m 23s.xml">
+      <configuration name="SolrManager.initSolrData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolrManager_initSolrData2 - 2019.06.11 at 10h 33m 49s.xml">
+      <configuration name="SolrManager.initSolrData2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolrManager_initSolrData2 - 2019.06.11 at 10h 35m 30s.xml">
+      <configuration name="SolrManager.initSolrData2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolrManager_initSolrData2 - 2019.06.11 at 10h 47m 57s.xml">
+      <configuration name="SolrManager.initSolrData2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolrManager_initSolrData2 - 2019.06.11 at 11h 16m 54s.xml">
+      <configuration name="SolrManager.initSolrData2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolrManager_initSolrData2 - 2019.06.11 at 13h 25m 17s.xml">
+      <configuration name="SolrManager.initSolrData2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolrManager_initSolrData2 - 2019.06.11 at 13h 53m 50s.xml">
+      <configuration name="SolrManager.initSolrData2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolrManager_initSolrData2 - 2019.06.11 at 14h 18m 53s.xml">
+      <configuration name="SolrManager.initSolrData2" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="180979000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2272118" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5402145" weight="0.33946252" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5214477" visible="true" weight="0.301273" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.32956153" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32956153" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.47855228" side_tool="true" weight="0.30551627" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4966488" weight="0.22008547" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.41150442" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.22453083" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25737265" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5422252" weight="0.6633663" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5093834" visible="true" weight="0.19519095" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.32956153" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.49061662" side_tool="true" weight="0.57425743" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49798927" weight="0.23903818" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.17962466" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="MavenRunConfiguration">
+        <watch expression="((RuntimeException)e).cause" custom="java.lang.RuntimeException" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bmh_pojo/src/main/java/entity/PageResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_interface/src/main/java/com/bmh/rope/service/BrandService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_interface/src/main/java/com/bmh/rope/service/ClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_service/src/main/java/com/bmh/rope/service/impl/ClientServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="57" column="22" selection-start-line="56" selection-start-column="21" selection-end-line="57" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="85" column="7" selection-start-line="85" selection-start-column="7" selection-end-line="85" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_interface/src/main/java/com/bmh/rope/service/MaintainService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_interface/src/main/java/com/bmh/rope/service/RopeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springDataRedis_demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springDataRedis_demo/src/main/resources/redis-config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springDataRedis_demo/src/main/resources/applicationContext-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springDataRedis_demo/src/main/java/ValueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springDataRedis_demo/src/main/java/HashTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springDataRedis_demo/src/main/java/SetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_commons/src/main/resources/config/redis-config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_commons/src/main/resources/spring/applicationContext-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_service/src/main/java/com/bmh/rope/service/impl/RopeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springDataRedis_demo/src/main/java/ListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_dao/src/main/resources/com/bmh/mapper/TbItemMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_dao/src/main/java/com/bmh/mapper/TbItemMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_pojo/src/main/java/com/bmh/pojo/TbItemExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../generatorProject/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_data_init/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/webapp/pages/tables/baosuoli_set.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_interface/src/main/java/com/bmh/rope/service/HistoryHoldsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_pojo/src/main/java/com/bmh/pojo/TbItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_pojo/src/main/java/com/bmh/pojo/HistoryHolds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_data_init/src/main/resources/spring/applicationContext-solr.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_service/src/main/resources/spring/applicationContext-solr.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/webapp/js/service/historyHoldsService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="35" column="55" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.11.5.RELEASE/spring-data-commons-1.11.5.RELEASE.jar!/org/springframework/data/domain/Chunk.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="67" column="53" lean-forward="true" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+          <folding>
+            <element signature="e#1666#1667#0" expanded="true" />
+            <element signature="e#1731#1732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1059">
+          <caret line="221" selection-start-line="221" selection-end-line="221" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/MyProgram Files/SaaS/Develop/java/jdk1.8.0_141/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_web2/src/main/java/com/bmh/rope/controller/HistoryHoldsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/webapp/js/controller/baseController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/webapp/js/controller/historyHoldsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="75" column="69" selection-start-line="75" selection-start-column="69" selection-end-line="75" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_data_init/src/test/java/SpringDataSolrTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-solr/1.5.5.RELEASE/spring-data-solr-1.5.5.RELEASE.jar!/org/springframework/data/solr/core/query/Criteria.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_service/src/main/java/com/bmh/rope/service/impl/HistoryHoldsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="90" column="13" lean-forward="true" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_data_init/src/main/java/SolrManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="193" column="17" selection-start-line="193" selection-start-column="17" selection-end-line="193" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/resources/spring/spring-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/webapp/pages/tables/baosuoli_data.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="31" column="54" lean-forward="true" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../redis_demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../redis_demo/src/main/java/RedisDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_dao/src/main/java/com/bmh/mapper/BoxBasicMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/java/com/bmh/rope/controller/BrandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/java/com/bmh/rope/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/java/com/bmh/rope/controller/HistoryHoldsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>bmh_rope_service:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>bmh_data_init</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24026845" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

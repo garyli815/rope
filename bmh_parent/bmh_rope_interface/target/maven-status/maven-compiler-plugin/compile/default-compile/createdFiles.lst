@@ -1,0 +1,5 @@
+com\bmh\rope\service\HistoryHoldsService.class
+com\bmh\rope\service\MaintainService.class
+com\bmh\rope\service\BrandService.class
+com\bmh\rope\service\RopeService.class
+com\bmh\rope\service\ClientService.class

@@ -1,0 +1,7 @@
+com\bmh\mapper\ClientMapper.class
+com\bmh\mapper\BoxBasicMapper.class
+com\bmh\mapper\MaintainMapper.class
+com\bmh\mapper\TbItemMapper.class
+com\bmh\mapper\TbBrandMapper.class
+com\bmh\mapper\RopeMapper.class
+com\bmh\mapper\HistoryHoldsMapper.class

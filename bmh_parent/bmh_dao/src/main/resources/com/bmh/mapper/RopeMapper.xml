@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.bmh.mapper.RopeMapper" >
+      <select id="findAll" resultType="com.bmh.pojo.Rope">
+          select * from box_basic
+      </select>
+
+<!--    <insert id="insert" parameterType="rope" >
+       insert into box_basic(entry_date,ropeway,status,driv_time,stop_time,run_today,run_total,weather,temperature,car_num,train_day,train_total,entry_people)
+       values(#{entryDate},#{ropeway},#{status},#{drivTime},#{stopTime},#{runToday},#{runTotal},#{weather},#{temperature},#{ropeway},#{carNum},#{trainDay},#{trainTotal},#{entryPeople})
+    </insert>-->
+
+    <insert id="insert" parameterType="rope" >
+       insert into box_basic(entry_date,entry_people)
+       values(#{entryDate},#{entryPeople})
+    </insert>
+
+    <select id="findOne" parameterType="long" resultType="rope">
+        select * from box_basic where id=#{id}
+    </select>
+
+    <delete id="deleteById" parameterType="long">
+        delete from box_basic where id=#{id}
+    </delete>
+
+    <update id="updateById" parameterType="rope">
+         update box_basic set entry_date=#{entryDate},entry_people=#{entryPeople} where id=#{id}
+    </update>
+
+    <select id="findPageByRope" parameterType="rope" resultType="rope">
+        select * from box_basic
+        <where>
+            <if test="entryDate!=null and entryDate!=''">
+                and entry_date = #{entryDate}
+            </if>
+            <if test="entryPeople!=null and entryPeople!=''">
+                and entry_people like '%${entryPeople}%'
+            </if>
+        </where>
+    </select>
+  
+</mapper>

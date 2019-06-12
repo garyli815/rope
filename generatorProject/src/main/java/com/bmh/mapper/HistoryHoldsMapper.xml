@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bmh.mapper.HistoryHoldsMapper">
+  <resultMap id="BaseResultMap" type="com.bmh.pojo.HistoryHolds">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="box_num" jdbcType="BIGINT" property="boxNum" />
+    <result column="hold_num" jdbcType="BIGINT" property="holdNum" />
+    <result column="date" jdbcType="TIMESTAMP" property="date" />
+    <result column="strength" jdbcType="INTEGER" property="strength" />
+    <result column="temperature" jdbcType="DOUBLE" property="temperature" />
+    <result column="humidity" jdbcType="INTEGER" property="humidity" />
+    <result column="rope_station" jdbcType="VARCHAR" property="ropeStation" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    id, box_num, hold_num, date, strength, temperature, humidity, rope_station
+  </sql>
+  <select id="selectByExample" parameterType="com.bmh.pojo.HistoryHoldsExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from history_holds
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from history_holds
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from history_holds
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.bmh.pojo.HistoryHoldsExample">
+    delete from history_holds
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.bmh.pojo.HistoryHolds">
+    insert into history_holds (id, box_num, hold_num, 
+      date, strength, temperature, 
+      humidity, rope_station)
+    values (#{id,jdbcType=BIGINT}, #{boxNum,jdbcType=BIGINT}, #{holdNum,jdbcType=BIGINT}, 
+      #{date,jdbcType=TIMESTAMP}, #{strength,jdbcType=INTEGER}, #{temperature,jdbcType=DOUBLE}, 
+      #{humidity,jdbcType=INTEGER}, #{ropeStation,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.bmh.pojo.HistoryHolds">
+    insert into history_holds
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="boxNum != null">
+        box_num,
+      </if>
+      <if test="holdNum != null">
+        hold_num,
+      </if>
+      <if test="date != null">
+        date,
+      </if>
+      <if test="strength != null">
+        strength,
+      </if>
+      <if test="temperature != null">
+        temperature,
+      </if>
+      <if test="humidity != null">
+        humidity,
+      </if>
+      <if test="ropeStation != null">
+        rope_station,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="boxNum != null">
+        #{boxNum,jdbcType=BIGINT},
+      </if>
+      <if test="holdNum != null">
+        #{holdNum,jdbcType=BIGINT},
+      </if>
+      <if test="date != null">
+        #{date,jdbcType=TIMESTAMP},
+      </if>
+      <if test="strength != null">
+        #{strength,jdbcType=INTEGER},
+      </if>
+      <if test="temperature != null">
+        #{temperature,jdbcType=DOUBLE},
+      </if>
+      <if test="humidity != null">
+        #{humidity,jdbcType=INTEGER},
+      </if>
+      <if test="ropeStation != null">
+        #{ropeStation,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.bmh.pojo.HistoryHoldsExample" resultType="java.lang.Integer">
+    select count(*) from history_holds
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update history_holds
+    <set>
+      <if test="record.id != null">
+        id = #{record.id,jdbcType=BIGINT},
+      </if>
+      <if test="record.boxNum != null">
+        box_num = #{record.boxNum,jdbcType=BIGINT},
+      </if>
+      <if test="record.holdNum != null">
+        hold_num = #{record.holdNum,jdbcType=BIGINT},
+      </if>
+      <if test="record.date != null">
+        date = #{record.date,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.strength != null">
+        strength = #{record.strength,jdbcType=INTEGER},
+      </if>
+      <if test="record.temperature != null">
+        temperature = #{record.temperature,jdbcType=DOUBLE},
+      </if>
+      <if test="record.humidity != null">
+        humidity = #{record.humidity,jdbcType=INTEGER},
+      </if>
+      <if test="record.ropeStation != null">
+        rope_station = #{record.ropeStation,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update history_holds
+    set id = #{record.id,jdbcType=BIGINT},
+      box_num = #{record.boxNum,jdbcType=BIGINT},
+      hold_num = #{record.holdNum,jdbcType=BIGINT},
+      date = #{record.date,jdbcType=TIMESTAMP},
+      strength = #{record.strength,jdbcType=INTEGER},
+      temperature = #{record.temperature,jdbcType=DOUBLE},
+      humidity = #{record.humidity,jdbcType=INTEGER},
+      rope_station = #{record.ropeStation,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.bmh.pojo.HistoryHolds">
+    update history_holds
+    <set>
+      <if test="boxNum != null">
+        box_num = #{boxNum,jdbcType=BIGINT},
+      </if>
+      <if test="holdNum != null">
+        hold_num = #{holdNum,jdbcType=BIGINT},
+      </if>
+      <if test="date != null">
+        date = #{date,jdbcType=TIMESTAMP},
+      </if>
+      <if test="strength != null">
+        strength = #{strength,jdbcType=INTEGER},
+      </if>
+      <if test="temperature != null">
+        temperature = #{temperature,jdbcType=DOUBLE},
+      </if>
+      <if test="humidity != null">
+        humidity = #{humidity,jdbcType=INTEGER},
+      </if>
+      <if test="ropeStation != null">
+        rope_station = #{ropeStation,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.bmh.pojo.HistoryHolds">
+    update history_holds
+    set box_num = #{boxNum,jdbcType=BIGINT},
+      hold_num = #{holdNum,jdbcType=BIGINT},
+      date = #{date,jdbcType=TIMESTAMP},
+      strength = #{strength,jdbcType=INTEGER},
+      temperature = #{temperature,jdbcType=DOUBLE},
+      humidity = #{humidity,jdbcType=INTEGER},
+      rope_station = #{ropeStation,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <resultMap id="BaseResultMap" type="com.bmh.pojo.HistoryHolds">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="box_num" jdbcType="BIGINT" property="boxNum" />
+    <result column="hold_num" jdbcType="BIGINT" property="holdNum" />
+    <result column="date" jdbcType="TIMESTAMP" property="date" />
+    <result column="strength" jdbcType="INTEGER" property="strength" />
+    <result column="temperature" jdbcType="DOUBLE" property="temperature" />
+    <result column="humidity" jdbcType="INTEGER" property="humidity" />
+    <result column="rope_station" jdbcType="VARCHAR" property="ropeStation" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    id, box_num, hold_num, date, strength, temperature, humidity, rope_station
+  </sql>
+  <select id="selectByExample" parameterType="com.bmh.pojo.HistoryHoldsExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from history_holds
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from history_holds
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from history_holds
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.bmh.pojo.HistoryHoldsExample">
+    delete from history_holds
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.bmh.pojo.HistoryHolds">
+    insert into history_holds (id, box_num, hold_num, 
+      date, strength, temperature, 
+      humidity, rope_station)
+    values (#{id,jdbcType=BIGINT}, #{boxNum,jdbcType=BIGINT}, #{holdNum,jdbcType=BIGINT}, 
+      #{date,jdbcType=TIMESTAMP}, #{strength,jdbcType=INTEGER}, #{temperature,jdbcType=DOUBLE}, 
+      #{humidity,jdbcType=INTEGER}, #{ropeStation,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.bmh.pojo.HistoryHolds">
+    insert into history_holds
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="boxNum != null">
+        box_num,
+      </if>
+      <if test="holdNum != null">
+        hold_num,
+      </if>
+      <if test="date != null">
+        date,
+      </if>
+      <if test="strength != null">
+        strength,
+      </if>
+      <if test="temperature != null">
+        temperature,
+      </if>
+      <if test="humidity != null">
+        humidity,
+      </if>
+      <if test="ropeStation != null">
+        rope_station,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="boxNum != null">
+        #{boxNum,jdbcType=BIGINT},
+      </if>
+      <if test="holdNum != null">
+        #{holdNum,jdbcType=BIGINT},
+      </if>
+      <if test="date != null">
+        #{date,jdbcType=TIMESTAMP},
+      </if>
+      <if test="strength != null">
+        #{strength,jdbcType=INTEGER},
+      </if>
+      <if test="temperature != null">
+        #{temperature,jdbcType=DOUBLE},
+      </if>
+      <if test="humidity != null">
+        #{humidity,jdbcType=INTEGER},
+      </if>
+      <if test="ropeStation != null">
+        #{ropeStation,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.bmh.pojo.HistoryHoldsExample" resultType="java.lang.Integer">
+    select count(*) from history_holds
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update history_holds
+    <set>
+      <if test="record.id != null">
+        id = #{record.id,jdbcType=BIGINT},
+      </if>
+      <if test="record.boxNum != null">
+        box_num = #{record.boxNum,jdbcType=BIGINT},
+      </if>
+      <if test="record.holdNum != null">
+        hold_num = #{record.holdNum,jdbcType=BIGINT},
+      </if>
+      <if test="record.date != null">
+        date = #{record.date,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.strength != null">
+        strength = #{record.strength,jdbcType=INTEGER},
+      </if>
+      <if test="record.temperature != null">
+        temperature = #{record.temperature,jdbcType=DOUBLE},
+      </if>
+      <if test="record.humidity != null">
+        humidity = #{record.humidity,jdbcType=INTEGER},
+      </if>
+      <if test="record.ropeStation != null">
+        rope_station = #{record.ropeStation,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update history_holds
+    set id = #{record.id,jdbcType=BIGINT},
+      box_num = #{record.boxNum,jdbcType=BIGINT},
+      hold_num = #{record.holdNum,jdbcType=BIGINT},
+      date = #{record.date,jdbcType=TIMESTAMP},
+      strength = #{record.strength,jdbcType=INTEGER},
+      temperature = #{record.temperature,jdbcType=DOUBLE},
+      humidity = #{record.humidity,jdbcType=INTEGER},
+      rope_station = #{record.ropeStation,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.bmh.pojo.HistoryHolds">
+    update history_holds
+    <set>
+      <if test="boxNum != null">
+        box_num = #{boxNum,jdbcType=BIGINT},
+      </if>
+      <if test="holdNum != null">
+        hold_num = #{holdNum,jdbcType=BIGINT},
+      </if>
+      <if test="date != null">
+        date = #{date,jdbcType=TIMESTAMP},
+      </if>
+      <if test="strength != null">
+        strength = #{strength,jdbcType=INTEGER},
+      </if>
+      <if test="temperature != null">
+        temperature = #{temperature,jdbcType=DOUBLE},
+      </if>
+      <if test="humidity != null">
+        humidity = #{humidity,jdbcType=INTEGER},
+      </if>
+      <if test="ropeStation != null">
+        rope_station = #{ropeStation,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.bmh.pojo.HistoryHolds">
+    update history_holds
+    set box_num = #{boxNum,jdbcType=BIGINT},
+      hold_num = #{holdNum,jdbcType=BIGINT},
+      date = #{date,jdbcType=TIMESTAMP},
+      strength = #{strength,jdbcType=INTEGER},
+      temperature = #{temperature,jdbcType=DOUBLE},
+      humidity = #{humidity,jdbcType=INTEGER},
+      rope_station = #{ropeStation,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>
