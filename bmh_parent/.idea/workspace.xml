@@ -4,6 +4,46 @@
     <list default="true" id="5bb944eb-e2df-4457-a34a-c0860005912e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/UI/buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/UI/calendar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/UI/general.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/UI/icons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/UI/modals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/UI/sliders.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/UI/timeline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/charts/chartjs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/charts/flot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/charts/inline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/charts/morris.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/examples/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/examples/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/examples/blank.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/examples/invoice-print.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/examples/invoice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/examples/lockscreen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/examples/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/examples/pace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/examples/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/examples/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/forms/advanced.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/forms/editors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/forms/general.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/layout/boxed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/layout/collapsed-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/layout/fixed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/layout/top-nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/mailbox/compose.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/mailbox/mailbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/mailbox/read-mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/schedule.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/tables/baosuoli_data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/tables/baosuoli_set.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/tables2/data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/tables2/simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/tips/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/typein/day.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/typein/simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/widgets.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/bmh_commons/target/" />
@@ -27,73 +67,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bmh_dao/src/main/java/com/bmh/mapper/BoxBasicMapper.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/java/com/bmh/rope/controller/BrandController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="252">
+              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#section#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#1;n#section#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#1;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#section#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#section#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#section#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/java/com/bmh/rope/UserDetailsServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/dist/js/pages/dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/java/com/bmh/rope/controller/HistoryHoldsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/webapp/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bmh_commons/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="760" column="36" selection-start-line="760" selection-start-column="36" selection-end-line="760" selection-end-column="36" />
+            <state relative-caret-position="165">
+              <caret line="157" column="34" selection-start-line="150" selection-start-column="6" selection-end-line="160" selection-end-column="33" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#1;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#1;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#div#1;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#section#1;n#div#1;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/build/js/myEcharts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="373" lean-forward="true" selection-start-line="373" selection-end-line="373" />
+              <folding>
+                <element signature="e#15707#20632#0" />
               </folding>
             </state>
           </provider>
@@ -102,26 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/dist/css/AdminLTE.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="4836" column="13" lean-forward="true" selection-start-line="4836" selection-start-column="13" selection-end-line="4836" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/dist/css/AdminLTE.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="87991" selection-start-line="6" selection-start-column="87991" selection-end-line="6" selection-end-column="87991" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bmh_rope_web/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="288">
+              <caret line="4858" column="11" lean-forward="true" selection-start-line="4858" selection-start-column="11" selection-end-line="4858" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -140,12 +134,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Seller</find>
-      <find>insert</find>
-      <find>系统</find>
-      <find>索道日</find>
-      <find>./</find>
-      <find>sellerModal</find>
       <find>findO</find>
       <find>updateS</find>
       <find>baidu</find>
@@ -170,6 +158,12 @@
       <find>searchEntity</find>
       <find>https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css</find>
       <find>Area Chart</find>
+      <find>中天门</find>
+      <find>ech</find>
+      <find>line-</find>
+      <find>util</find>
+      <find>Area</find>
+      <find>gonglv</find>
     </findStrings>
     <replaceStrings>
       <replace>entryDate</replace>
@@ -196,8 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../fastdfs_demo/src/main/java/FastDfsTest.java" />
-        <option value="$PROJECT_DIR$/bmh_rope_web/src/main/webapp/js/service/uploadService.js" />
         <option value="$PROJECT_DIR$/bmh_rope_web/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/bmh_commons/src/main/java/utils/FastDFSClient.java" />
         <option value="$PROJECT_DIR$/bmh_rope_web/src/main/java/com/bmh/rope/controller/UploadController.java" />
@@ -246,7 +238,9 @@
         <option value="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/UI/sliders.html" />
         <option value="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/tables2/data.html" />
         <option value="$PROJECT_DIR$/bmh_rope_web/src/main/webapp/pages/tables/baosuoli_data.html" />
+        <option value="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/build/js/myecharts.js" />
         <option value="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/build/js/myEcharts.js" />
       </list>
     </option>
   </component>
@@ -274,19 +268,21 @@
     <option name="jreName" value="#JAVA_HOME" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="435" />
-    <option name="y" value="100" />
+    <option name="x" value="471" />
+    <option name="y" value="231" />
     <option name="width" value="1380" />
     <option name="height" value="745" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,6 +321,43 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bmh_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bmh_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="bmh_rope_web2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bmh_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bmh_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="bmh_rope_web2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bmh_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bmh_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="bmh_rope_web2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bmh_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bmh_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="bmh_rope_web2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -334,11 +367,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560412900731" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560844214236" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../leetcode" />
+    <property name="last_opened_file_path" value="D:/BaiduNetdiskDownload/企业权限管理系统/day04/代码/heima_ssm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -355,15 +388,12 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MyWorkspace\IdeaProjects\suodao1\workspace\bmh_parent\bmh_dao\src\main\resources\com\bmh\mapper" />
+      <recent name="C:\MyWorkspace\IdeaProjects\suodao1\workspace\bmh_parent\bmh_rope_service\src" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.bmh.rope.service.impl" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\MyWorkspace\IdeaProjects\suodao1\workspace\bmh_parent\bmh_rope_service\src\main\resources\spring" />
-      <recent name="C:\MyWorkspace\IdeaProjects\suodao1\workspace\bmh_parent\bmh_pojo\src\main\java\com\bmh\pojo" />
-      <recent name="C:\MyWorkspace\IdeaProjects\suodao1\workspace\bmh_parent\bmh_dao\src\main\java\com\bmh\mapper" />
-      <recent name="C:\MyWorkspace\IdeaProjects\suodao1\workspace\bmh_parent\bmh_data_init\src\main\resources\spring" />
-      <recent name="C:\MyWorkspace\IdeaProjects\suodao1\workspace\bmh_parent\bmh_commons\src\main\resources\config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.bmh.rope.service.impl" />
@@ -371,9 +401,12 @@
       <recent name="com.bmh.rope.controller" />
       <recent name="com.bmh.mapper" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\MyWorkspace\IdeaProjects\suodao1\workspace\bmh_parent\bmh_dao\src\main\resources\com\bmh\mapper" />
-      <recent name="C:\MyWorkspace\IdeaProjects\suodao1\workspace\bmh_parent\bmh_rope_service\src" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MyWorkspace\IdeaProjects\suodao1\workspace\bmh_parent\bmh_rope_web2\src\main\webapp\build\js" />
+      <recent name="C:\MyWorkspace\IdeaProjects\suodao1\workspace\bmh_parent\bmh_rope_service\src\main\resources\spring" />
+      <recent name="C:\MyWorkspace\IdeaProjects\suodao1\workspace\bmh_parent\bmh_pojo\src\main\java\com\bmh\pojo" />
+      <recent name="C:\MyWorkspace\IdeaProjects\suodao1\workspace\bmh_parent\bmh_dao\src\main\java\com\bmh\mapper" />
+      <recent name="C:\MyWorkspace\IdeaProjects\suodao1\workspace\bmh_parent\bmh_data_init\src\main\resources\spring" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -508,6 +541,7 @@
       <workItem from="1560233211904" duration="246000" />
       <workItem from="1560233801446" duration="2068000" />
       <workItem from="1560316509060" duration="9960000" />
+      <workItem from="1560473928374" duration="16117000" />
     </task>
     <servers />
   </component>
@@ -544,7 +578,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189269000" />
+    <option name="totallyTimeSpent" value="205386000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -557,9 +591,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08042896" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22050938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -570,14 +603,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5402145" weight="0.33946252" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.5214477" visible="true" weight="0.1713881" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.52077746" visible="true" weight="0.10481586" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.32956153" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32956153" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32956153" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.47855228" side_tool="true" weight="0.30551627" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4792225" side_tool="true" visible="true" weight="0.10481586" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4966488" weight="0.22008547" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.41150442" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -638,23 +671,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/webapp/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="85" column="7" selection-start-line="85" selection-start-column="7" selection-end-line="85" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bmh_rope_interface/src/main/java/com/bmh/rope/service/MaintainService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bmh_rope_interface/src/main/java/com/bmh/rope/service/RopeService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -947,10 +963,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bmh_dao/src/main/java/com/bmh/mapper/BoxBasicMapper.java">
+    <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/java/com/bmh/rope/UserDetailsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="105">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/java/com/bmh/rope/controller/HistoryHoldsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/dist/css/AdminLTE.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="87991" selection-start-line="6" selection-start-column="87991" selection-end-line="6" selection-end-column="87991" />
         </state>
       </provider>
     </entry>
@@ -971,57 +1015,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/java/com/bmh/rope/UserDetailsServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/bmh_dao/src/main/java/com/bmh/mapper/BoxBasicMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="88">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/java/com/bmh/rope/controller/HistoryHoldsController.java">
+    <entry file="file://$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/dist/js/pages/dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bmh_rope_web/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bmh_commons/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/dist/css/AdminLTE.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="87991" selection-start-line="6" selection-start-column="87991" selection-end-line="6" selection-end-column="87991" />
+        <state relative-caret-position="165">
+          <caret line="157" column="34" selection-start-line="150" selection-start-column="6" selection-end-line="160" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/dist/css/AdminLTE.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="4836" column="13" lean-forward="true" selection-start-line="4836" selection-start-column="13" selection-end-line="4836" selection-end-column="13" />
+        <state relative-caret-position="288">
+          <caret line="4858" column="11" lean-forward="true" selection-start-line="4858" selection-start-column="11" selection-end-line="4858" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/build/js/myEcharts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="373" lean-forward="true" selection-start-line="373" selection-end-line="373" />
+          <folding>
+            <element signature="e#15707#20632#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="760" column="36" selection-start-line="760" selection-start-column="36" selection-end-line="760" selection-end-column="36" />
+        <state relative-caret-position="252">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#1;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#1;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#div#1;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#section#1;n#div#1;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#section#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#1;n#section#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#section#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#section#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#section#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
