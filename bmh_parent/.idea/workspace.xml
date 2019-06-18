@@ -1,50 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bb944eb-e2df-4457-a34a-c0860005912e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/UI/buttons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/UI/calendar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/UI/general.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/UI/icons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/UI/modals.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/UI/sliders.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/UI/timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/charts/chartjs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/charts/flot.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/charts/inline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/charts/morris.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/examples/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/examples/500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/examples/blank.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/examples/invoice-print.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/examples/invoice.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/examples/lockscreen.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/examples/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/examples/pace.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/examples/profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/examples/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/forms/advanced.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/forms/editors.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/forms/general.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/layout/boxed.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/layout/collapsed-sidebar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/layout/fixed.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/layout/top-nav.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/mailbox/compose.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/mailbox/mailbox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/others/mailbox/read-mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/schedule.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/tables/baosuoli_data.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/tables/baosuoli_set.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/tables2/data.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/tables2/simple.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/tips/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/typein/day.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/typein/simple.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/pages/widgets.html" beforeDir="false" />
-    </list>
+    <list default="true" id="5bb944eb-e2df-4457-a34a-c0860005912e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/bmh_commons/target/" />
     <ignored path="$PROJECT_DIR$/bmh_pojo/target/" />
@@ -70,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="107">
+              <caret line="89" column="27" lean-forward="true" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -321,43 +278,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="bmh_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bmh_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="bmh_rope_web2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bmh_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bmh_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="bmh_rope_web2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bmh_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bmh_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="bmh_rope_web2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bmh_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bmh_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="bmh_rope_web2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -367,7 +287,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560844214236" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560844354674" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -541,7 +461,7 @@
       <workItem from="1560233211904" duration="246000" />
       <workItem from="1560233801446" duration="2068000" />
       <workItem from="1560316509060" duration="9960000" />
-      <workItem from="1560473928374" duration="16117000" />
+      <workItem from="1560473928374" duration="16372000" />
     </task>
     <servers />
   </component>
@@ -578,7 +498,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205386000" />
+    <option name="totallyTimeSpent" value="205641000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -592,7 +512,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22050938" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22050938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -603,14 +523,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5402145" weight="0.33946252" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.52077746" visible="true" weight="0.10481586" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.52077746" visible="true" weight="0.55382437" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.32956153" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32956153" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32956153" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4792225" side_tool="true" visible="true" weight="0.10481586" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4792225" side_tool="true" weight="0.57648724" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4966488" weight="0.22008547" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.41150442" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -1051,8 +971,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bmh_rope_web2/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="107">
+          <caret line="89" column="27" lean-forward="true" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
