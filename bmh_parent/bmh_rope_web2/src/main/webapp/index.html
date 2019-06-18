@@ -40,11 +40,6 @@
 		<script src="js/service/indexService.js"></script>
 		<script src="js/controller/indexController.js"></script>
 		<!--引入angularjs end-->
-
-		<!--引入自定义echarts样式-->
-		<script src="build/js/myEcharts.js"></script>
-		<!--引入该页面的图表相关的js文件-->
-		<script src="dist/js/pages/dashboard.js"></script>
 	</head>
 
 	<body class="hold-transition skin-blue sidebar-mini" ng-app="bmh" ng-controller="indexController" ng-init="showName()">
@@ -445,7 +440,17 @@
 			<div class="content-wrapper">
 				<!-- Content Header (Page header) -->
 				<section class="content-header">
-
+					<h1>
+					  	<div class="btn-group">
+							<button type="button" class="btn btn-default">中天门</button>
+						</div>
+     				 </h1>
+					<ol class="breadcrumb">
+						<li>
+							<a href="#"><i class="fa fa-dashboard"></i> Home</a>
+						</li>
+						<li class="active">Dashboard</li>
+					</ol>
 				</section>
 
 				<!-- Main content -->
@@ -463,109 +468,11 @@
 								</div>
 								<div class="box-body">
 									<div class="chart">
-										<div id="mainb" style="height: 380px;"></div>
+										<div id="mainb" style="height: 393px;"></div>
 									</div>
 								</div>
 							</div>
 							<!-- chart 表1 end -->
-
-							<!--chart 表2 start-->
-							<div class="box box-solid bg-teal-gradient">
-								<div class="box-header">
-									<i class="fa fa-th"></i>
-
-									<h3 class="box-title">Sales Graph</h3>
-
-									<div class="box-tools pull-right">
-										<button type="button" class="btn bg-teal btn-sm" data-widget="collapse"><i class="fa fa-minus"></i>
-										</button>
-										<button type="button" class="btn bg-teal btn-sm" data-widget="remove"><i class="fa fa-times"></i>
-										</button>
-									</div>
-								</div>
-								<div class="box-body border-radius-none">
-									<div class="chart" id="line-chart" style="height: 400px;"></div>
-								</div>
-								<!-- /.box-body -->
-								<div class="box-footer no-border">
-									<div class="row">
-										<div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
-											<input type="text" class="knob" data-readonly="true" value="20" data-width="60" data-height="60" data-fgColor="#39CCCC">
-
-											<div class="knob-label">Mail-Orders</div>
-										</div>
-										<!-- ./col -->
-										<div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
-											<input type="text" class="knob" data-readonly="true" value="50" data-width="60" data-height="60" data-fgColor="#39CCCC">
-
-											<div class="knob-label">Online</div>
-										</div>
-										<!-- ./col -->
-										<div class="col-xs-4 text-center">
-											<input type="text" class="knob" data-readonly="true" value="30" data-width="60" data-height="60" data-fgColor="#39CCCC">
-
-											<div class="knob-label">In-Store</div>
-										</div>
-										<!-- ./col -->
-									</div>
-									<!-- /.row -->
-								</div>
-								<!-- /.box-footer -->
-							</div>
-							<!-- chart 表2 end -->
-
-						</section>
-
-
-						<section class="col-lg-6 col-md-6 col-sm-12 ">
-							<!-- 地图 表3  start -->
-
-							<div class="box box-solid bg-light-blue-gradient">
-								<div class="box-header">
-									<!-- tools box -->
-									<div class="pull-right box-tools">
-										<button type="button" class="btn btn-primary btn-sm daterange pull-right" data-toggle="tooltip" title="Date range">
-											<i class="fa fa-calendar"></i></button>
-										<button type="button" class="btn btn-primary btn-sm pull-right" data-widget="collapse" data-toggle="tooltip" title="Collapse" style="margin-right: 5px;">
-											<i class="fa fa-minus"></i></button>
-									</div>
-									<!-- /. tools -->
-
-									<i class="fa fa-map-marker"></i>
-
-									<h3 class="box-title">
-										Visitors
-									</h3>
-								</div>
-								<div class="box-body">
-									<div id="world-map" style="height: 309px; width: 100%;"></div>
-								</div>
-								<!-- /.box-body-->
-								<div class="box-footer no-border">
-									<div class="row">
-										<div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
-											<div id="sparkline-1"></div>
-											<div class="knob-label">Visitors</div>
-										</div>
-										<!-- ./col -->
-										<div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
-											<div id="sparkline-2"></div>
-											<div class="knob-label">Online</div>
-										</div>
-										<!-- ./col -->
-										<div class="col-xs-4 text-center">
-											<div id="sparkline-3"></div>
-											<div class="knob-label">Exists</div>
-										</div>
-										<!-- ./col -->
-									</div>
-									<!-- /.row -->
-								</div>
-							</div>
-
-							<!-- 地图 表3 end -->
-
-							<!-- chart 表4 start -->
 
 							<div class="box box-primary">
 								<div class="box-header with-border">
@@ -577,11 +484,51 @@
 								</div>
 								<div class="box-body">
 									<div class="chart">
-										<div id="gonglv" style="height: 470px;"></div>
-									</div>.
+										<div id="#" style="height: 393px;"></div>
+									</div>
 								</div>
 							</div>
-							<!-- chart 表4 end -->
+							<!-- chart 表1 end -->
+
+						</section>
+
+
+						<section class="col-lg-6 col-md-6 col-sm-12 ">
+							<!-- chart 表1 end -->
+
+							<div class="box box-primary">
+								<div class="box-header with-border">
+									<h3 class="box-title">Area Chart</h3>
+									<div class="box-tools pull-right">
+										<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+										<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+									</div>
+								</div>
+								<div class="box-body">
+									<div class="chart">
+										<div id="#" style="height: 393px;"></div>
+									</div>
+								</div>
+							</div>
+							<!-- chart 表1 end -->
+
+							<!-- chart 表1 end -->
+
+							<div class="box box-primary">
+								<div class="box-header with-border">
+									<h3 class="box-title">Area Chart</h3>
+									<div class="box-tools pull-right">
+										<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+										<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+									</div>
+								</div>
+								<div class="box-body">
+									<div class="chart">
+										<div id="#" style="height: 393px;"></div>
+									</div>
+								</div>
+							</div>
+							<!-- chart 表1 end -->
 						</section>
 					</div>
 					<!-- /.row (main row) -->
@@ -797,7 +744,268 @@
 		</div>
 		<!-- ./wrapper -->
 
+		<!--echarts js 开始-->
+		<script type="text/javascript">
+			// 基于准备好的 dom，初始化 echarts 实例
+			var myChart = echarts.init(document.getElementById('mainb'));
+			// 指定图表的配置项和数据
+			var option = {
 
+				tooltip: {
+					formatter: "{a} <br/>{c} {b}"
+				},
+				toolbox: {
+					show: true,
+					feature: {
+						restore: {
+							show: true
+						},
+						saveAsImage: {
+							show: true
+						}
+					}
+				},
+				title: {
+					text: '缆车速度',
+
+					left: "center",
+					top: 30
+
+				},
+				series: [{
+						name: '速度',
+						type: 'gauge',
+						z: 3,
+						min: 0,
+						max: 220,
+						splitNumber: 11,
+						radius: '50%',
+						axisLine: { // 坐标轴线
+							lineStyle: { // 属性lineStyle控制线条样式
+								width: 10
+							}
+						},
+						axisTick: { // 坐标轴小标记
+							length: 15, // 属性length控制线长
+							lineStyle: { // 属性lineStyle控制线条样式
+								color: 'auto'
+							}
+						},
+						splitLine: { // 分隔线
+							length: 20, // 属性length控制线长
+							lineStyle: { // 属性lineStyle（详见lineStyle）控制线条样式
+								color: 'auto'
+							}
+						},
+						axisLabel: {
+							backgroundColor: 'auto',
+							borderRadius: 2,
+							color: '#eee',
+							padding: 3,
+							textShadowBlur: 2,
+							textShadowOffsetX: 1,
+							textShadowOffsetY: 1,
+							textShadowColor: '#222'
+						},
+						title: {
+							// 其余属性默认使用全局文本样式，详见TEXTSTYLE
+							fontWeight: 'bolder',
+							fontSize: 20,
+							fontStyle: 'italic'
+						},
+						detail: {
+							// 其余属性默认使用全局文本样式，详见TEXTSTYLE
+							formatter: function(value) {
+								value = (value + '').split('.');
+								value.length < 2 && (value.push('00'));
+								return('00' + value[0]).slice(-2) +
+									'.' + (value[1] + '00').slice(0, 2);
+							},
+							fontWeight: 'bolder',
+							borderRadius: 3,
+							backgroundColor: '#444',
+							borderColor: '#aaa',
+							shadowBlur: 5,
+							shadowColor: '#333',
+							shadowOffsetX: 0,
+							shadowOffsetY: 3,
+							borderWidth: 2,
+							textBorderColor: '#000',
+							textBorderWidth: 2,
+							textShadowBlur: 2,
+							textShadowColor: '#fff',
+							textShadowOffsetX: 0,
+							textShadowOffsetY: 0,
+							fontFamily: 'Arial',
+							width: 100,
+							color: '#eee',
+							rich: {}
+						},
+						data: [{
+							value: 40,
+							name: 'km/h'
+						}]
+					},
+					{
+						name: '转速',
+						type: 'gauge',
+						center: ['20%', '55%'], // 默认全局居中
+						radius: '35%',
+						min: 0,
+						max: 7,
+						endAngle: 45,
+						splitNumber: 7,
+						axisLine: { // 坐标轴线
+							lineStyle: { // 属性lineStyle控制线条样式
+								width: 8
+							}
+						},
+						axisTick: { // 坐标轴小标记
+							length: 12, // 属性length控制线长
+							lineStyle: { // 属性lineStyle控制线条样式
+								color: 'auto'
+							}
+						},
+						splitLine: { // 分隔线
+							length: 20, // 属性length控制线长
+							lineStyle: { // 属性lineStyle（详见lineStyle）控制线条样式
+								color: 'auto'
+							}
+						},
+						pointer: {
+							width: 5
+						},
+						title: {
+							offsetCenter: [0, '-30%'], // x, y，单位px
+						},
+						detail: {
+							// 其余属性默认使用全局文本样式，详见TEXTSTYLE
+							fontWeight: 'bolder'
+						},
+						data: [{
+							value: 1.5,
+							name: 'x1000 r/min'
+						}]
+					},
+					{
+						name: '油表',
+						type: 'gauge',
+						center: ['77%', '50%'], // 默认全局居中
+						radius: '25%',
+						min: 0,
+						max: 2,
+						startAngle: 135,
+						endAngle: 45,
+						splitNumber: 2,
+						axisLine: { // 坐标轴线
+							lineStyle: { // 属性lineStyle控制线条样式
+								width: 8
+							}
+						},
+						axisTick: { // 坐标轴小标记
+							splitNumber: 5,
+							length: 10, // 属性length控制线长
+							lineStyle: { // 属性lineStyle控制线条样式
+								color: 'auto'
+							}
+						},
+						axisLabel: {
+							formatter: function(v) {
+								switch(v + '') {
+									case '0':
+										return 'E';
+									case '1':
+										return 'Gas';
+									case '2':
+										return 'F';
+								}
+							}
+						},
+						splitLine: { // 分隔线
+							length: 15, // 属性length控制线长
+							lineStyle: { // 属性lineStyle（详见lineStyle）控制线条样式
+								color: 'auto'
+							}
+						},
+						pointer: {
+							width: 2
+						},
+						title: {
+							show: false
+						},
+						detail: {
+							show: false
+						},
+						data: [{
+							value: 0.5,
+							name: 'gas'
+						}]
+					},
+					{
+						name: '水表',
+						type: 'gauge',
+						center: ['77%', '50%'], // 默认全局居中
+						radius: '25%',
+						min: 0,
+						max: 2,
+						startAngle: 315,
+						endAngle: 225,
+						splitNumber: 2,
+						axisLine: { // 坐标轴线
+							lineStyle: { // 属性lineStyle控制线条样式
+								width: 8
+							}
+						},
+						axisTick: { // 坐标轴小标记
+							show: false
+						},
+						axisLabel: {
+							formatter: function(v) {
+								switch(v + '') {
+									case '0':
+										return 'H';
+									case '1':
+										return 'Water';
+									case '2':
+										return 'C';
+								}
+							}
+						},
+						splitLine: { // 分隔线
+							length: 15, // 属性length控制线长
+							lineStyle: { // 属性lineStyle（详见lineStyle）控制线条样式
+								color: 'auto'
+							}
+						},
+						pointer: {
+							width: 2
+						},
+						title: {
+							show: false
+						},
+						detail: {
+							show: false
+						},
+						data: [{
+							value: 0.5,
+							name: 'gas'
+						}]
+					}
+				]
+			};
+
+			setInterval(function() {
+				option.series[0].data[0].value = (Math.random() * 100).toFixed(2) - 0;
+				option.series[1].data[0].value = (Math.random() * 7).toFixed(2) - 0;
+				option.series[2].data[0].value = (Math.random() * 2).toFixed(2) - 0;
+				option.series[3].data[0].value = (Math.random() * 2).toFixed(2) - 0;
+				myChart.setOption(option, true);
+			}, 2000);
+			// 使用刚指定的配置项和数据显示图表。
+			myChart.setOption(option);
+		</script>
+
+		<!--结束-->
 
 		<!--echarts js 结束-->
 
@@ -838,10 +1046,8 @@
 		<script src="dist/js/pages/dashboard.js"></script>
 		<!-- AdminLTE for demo purposes -->
 		<script src="dist/js/demo.js"></script>
+		<!-- 自定义 echarts-->
 
-		<!--引入自定义echarts样式-->
-		<script src="build/js/myEcharts.js"></script>
-		<!--引入该页面的图表相关的js文件-->
 		<!--		
 		<script src="vendors/jquery/dist/jquery.min.js"></script>
 	    <script src="vendors/fastclick/lib/fastclick.js"></script>
