@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="SpringDataSolrTest" time="0.364" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="SpringDataSolrTest" time="0.534" errors="4" skipped="0">
   <properties>
     <property name="idea.version" value="2018.3.5"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -12,7 +12,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="4695"/>
+    <property name="idea.launcher.port" value="1750"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -31,7 +31,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\MyProgram Files\SaaS\Develop\maven\apache-maven-3.5.4\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="C:\MyProgram Files\SaaS\Develop\java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\MyProgram Files\SaaS\Develop\java\jdk1.8.0_141\bin;C:\MyProgram Files\SaaS\Develop\maven\apache-maven-3.5.4\bin;C:\MyProgram Files\Shoutcut;C:\MyProgram Files\SaaS\Develop\scala\scala-2.11.8\bin;C:\MyProgram Files\SaaS\Develop\hadoop\hadoop-2.7.4\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Users\gary\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="C:\MyProgram Files\SaaS\Develop\java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\MyProgram Files\SaaS\Develop\java\jdk1.8.0_141\bin;C:\MyProgram Files\SaaS\Develop\maven\apache-maven-3.5.4\bin;C:\MyProgram Files\Shoutcut;C:\MyProgram Files\SaaS\Develop\scala\scala-2.11.8\bin;C:\MyProgram Files\SaaS\Develop\hadoop\hadoop-2.7.4\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\MyProgram Files\SaaS\Tools\Git\cmd;C:\MyProgram Files\SaaS\Tools\TortoiseGit\bin;C:\Users\gary\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="maven.conf" value="C:\MyProgram Files\SaaS\Develop\maven\apache-maven-3.5.4/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -66,8 +66,274 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="SpringDataSolrTest" name="testSearch" time="0.229"/>
-  <testcase classname="SpringDataSolrTest" name="testUpdate" time="0.05"/>
-  <testcase classname="SpringDataSolrTest" name="testAdd" time="0.041"/>
-  <testcase classname="SpringDataSolrTest" name="testDelete" time="0.044"/>
+  <testcase classname="SpringDataSolrTest" name="testUpdate" time="0.22">
+    <error message="IOException occured when talking to server at: http://127.0.0.1:8888/solr; nested exception is org.apache.solr.client.solrj.SolrServerException: IOException occured when talking to server at: http://127.0.0.1:8888/solr" type="org.springframework.data.solr.UncategorizedSolrException">org.springframework.data.solr.UncategorizedSolrException: IOException occured when talking to server at: http://127.0.0.1:8888/solr; nested exception is org.apache.solr.client.solrj.SolrServerException: IOException occured when talking to server at: http://127.0.0.1:8888/solr
+	at org.springframework.data.solr.core.SolrTemplate.execute(SolrTemplate.java:145)
+	at org.springframework.data.solr.core.SolrTemplate.saveBean(SolrTemplate.java:184)
+	at org.springframework.data.solr.core.SolrTemplate.saveBean(SolrTemplate.java:178)
+	at SpringDataSolrTest.testUpdate(SpringDataSolrTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:254)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.apache.solr.client.solrj.SolrServerException: IOException occured when talking to server at: http://127.0.0.1:8888/solr
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.executeMethod(HttpSolrServer.java:566)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.request(HttpSolrServer.java:210)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.request(HttpSolrServer.java:206)
+	at org.apache.solr.client.solrj.request.AbstractUpdateRequest.process(AbstractUpdateRequest.java:124)
+	at org.apache.solr.client.solrj.SolrServer.add(SolrServer.java:116)
+	at org.springframework.data.solr.core.SolrTemplate$4.doInSolr(SolrTemplate.java:187)
+	at org.springframework.data.solr.core.SolrTemplate$4.doInSolr(SolrTemplate.java:184)
+	at org.springframework.data.solr.core.SolrTemplate.execute(SolrTemplate.java:141)
+	... 38 more
+Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to 127.0.0.1:8888 timed out
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.executeMethod(HttpSolrServer.java:448)
+	... 45 more
+</error>
+    <system-err>SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/MyWorkspace/Repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/MyWorkspace/Repository/org/apache/activemq/activemq-all/5.11.2/activemq-all-5.11.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+log4j:WARN No appenders could be found for logger (org.springframework.test.context.junit4.SpringJUnit4ClassRunner).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+</system-err>
+  </testcase>
+  <testcase classname="SpringDataSolrTest" name="testAdd" time="0.102">
+    <error message="IOException occured when talking to server at: http://127.0.0.1:8888/solr; nested exception is org.apache.solr.client.solrj.SolrServerException: IOException occured when talking to server at: http://127.0.0.1:8888/solr" type="org.springframework.data.solr.UncategorizedSolrException">org.springframework.data.solr.UncategorizedSolrException: IOException occured when talking to server at: http://127.0.0.1:8888/solr; nested exception is org.apache.solr.client.solrj.SolrServerException: IOException occured when talking to server at: http://127.0.0.1:8888/solr
+	at org.springframework.data.solr.core.SolrTemplate.execute(SolrTemplate.java:145)
+	at org.springframework.data.solr.core.SolrTemplate.saveBean(SolrTemplate.java:184)
+	at org.springframework.data.solr.core.SolrTemplate.saveBean(SolrTemplate.java:178)
+	at SpringDataSolrTest.testAdd(SpringDataSolrTest.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:254)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.apache.solr.client.solrj.SolrServerException: IOException occured when talking to server at: http://127.0.0.1:8888/solr
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.executeMethod(HttpSolrServer.java:566)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.request(HttpSolrServer.java:210)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.request(HttpSolrServer.java:206)
+	at org.apache.solr.client.solrj.request.AbstractUpdateRequest.process(AbstractUpdateRequest.java:124)
+	at org.apache.solr.client.solrj.SolrServer.add(SolrServer.java:116)
+	at org.springframework.data.solr.core.SolrTemplate$4.doInSolr(SolrTemplate.java:187)
+	at org.springframework.data.solr.core.SolrTemplate$4.doInSolr(SolrTemplate.java:184)
+	at org.springframework.data.solr.core.SolrTemplate.execute(SolrTemplate.java:141)
+	... 38 more
+Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to 127.0.0.1:8888 timed out
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.executeMethod(HttpSolrServer.java:448)
+	... 45 more
+</error>
+  </testcase>
+  <testcase classname="SpringDataSolrTest" name="testSearch" time="0.11">
+    <error message="IOException occured when talking to server at: http://127.0.0.1:8888/solr; nested exception is org.apache.solr.client.solrj.SolrServerException: IOException occured when talking to server at: http://127.0.0.1:8888/solr" type="org.springframework.data.solr.UncategorizedSolrException">org.springframework.data.solr.UncategorizedSolrException: IOException occured when talking to server at: http://127.0.0.1:8888/solr; nested exception is org.apache.solr.client.solrj.SolrServerException: IOException occured when talking to server at: http://127.0.0.1:8888/solr
+	at org.springframework.data.solr.core.SolrTemplate.execute(SolrTemplate.java:145)
+	at org.springframework.data.solr.core.SolrTemplate.executeSolrQuery(SolrTemplate.java:414)
+	at org.springframework.data.solr.core.SolrTemplate.query(SolrTemplate.java:410)
+	at org.springframework.data.solr.core.SolrTemplate.doQueryForPage(SolrTemplate.java:296)
+	at org.springframework.data.solr.core.SolrTemplate.queryForPage(SolrTemplate.java:308)
+	at SpringDataSolrTest.testSearch(SpringDataSolrTest.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:254)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.apache.solr.client.solrj.SolrServerException: IOException occured when talking to server at: http://127.0.0.1:8888/solr
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.executeMethod(HttpSolrServer.java:566)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.request(HttpSolrServer.java:210)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.request(HttpSolrServer.java:206)
+	at org.apache.solr.client.solrj.request.QueryRequest.process(QueryRequest.java:91)
+	at org.apache.solr.client.solrj.SolrServer.query(SolrServer.java:301)
+	at org.springframework.data.solr.core.SolrTemplate$11.doInSolr(SolrTemplate.java:417)
+	at org.springframework.data.solr.core.SolrTemplate$11.doInSolr(SolrTemplate.java:414)
+	at org.springframework.data.solr.core.SolrTemplate.execute(SolrTemplate.java:141)
+	... 40 more
+Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to 127.0.0.1:8888 timed out
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.executeMethod(HttpSolrServer.java:448)
+	... 47 more
+</error>
+  </testcase>
+  <testcase classname="SpringDataSolrTest" name="testDelete" time="0.102">
+    <error message="IOException occured when talking to server at: http://127.0.0.1:8888/solr; nested exception is org.apache.solr.client.solrj.SolrServerException: IOException occured when talking to server at: http://127.0.0.1:8888/solr" type="org.springframework.data.solr.UncategorizedSolrException">org.springframework.data.solr.UncategorizedSolrException: IOException occured when talking to server at: http://127.0.0.1:8888/solr; nested exception is org.apache.solr.client.solrj.SolrServerException: IOException occured when talking to server at: http://127.0.0.1:8888/solr
+	at org.springframework.data.solr.core.SolrTemplate.execute(SolrTemplate.java:145)
+	at org.springframework.data.solr.core.SolrTemplate.delete(SolrTemplate.java:243)
+	at SpringDataSolrTest.testDelete(SpringDataSolrTest.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:254)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.apache.solr.client.solrj.SolrServerException: IOException occured when talking to server at: http://127.0.0.1:8888/solr
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.executeMethod(HttpSolrServer.java:566)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.request(HttpSolrServer.java:210)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.request(HttpSolrServer.java:206)
+	at org.apache.solr.client.solrj.request.AbstractUpdateRequest.process(AbstractUpdateRequest.java:124)
+	at org.apache.solr.client.solrj.SolrServer.deleteByQuery(SolrServer.java:285)
+	at org.apache.solr.client.solrj.SolrServer.deleteByQuery(SolrServer.java:271)
+	at org.springframework.data.solr.core.SolrTemplate$8.doInSolr(SolrTemplate.java:246)
+	at org.springframework.data.solr.core.SolrTemplate$8.doInSolr(SolrTemplate.java:243)
+	at org.springframework.data.solr.core.SolrTemplate.execute(SolrTemplate.java:141)
+	... 37 more
+Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to 127.0.0.1:8888 timed out
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.executeMethod(HttpSolrServer.java:448)
+	... 45 more
+</error>
+  </testcase>
 </testsuite>
