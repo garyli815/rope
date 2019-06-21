@@ -1,5 +1,7 @@
 package com.bmh.pojo;
 
+import java.util.List;
+
 public class Users {
     private String id;
 
@@ -12,6 +14,16 @@ public class Users {
     private String phonenum;
 
     private Integer status;
+
+    private List<Role> roles;
+
+    public List<Role> getRoles() {
+        return roles;
+    }
+
+    public void setRoles(List<Role> roles) {
+        this.roles = roles;
+    }
 
     public String getId() {
         return id;

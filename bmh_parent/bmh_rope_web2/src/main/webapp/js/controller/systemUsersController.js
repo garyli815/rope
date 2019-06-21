@@ -1,5 +1,5 @@
 //控制层 
-app.controller('systemUserController',function($scope, $controller, systemUserService) {
+app.controller('systemUsersController',function($scope, $controller, systemUsersService) {
 
 			$controller('baseController', {$scope : $scope});// 继承
 
@@ -8,7 +8,7 @@ app.controller('systemUserController',function($scope, $controller, systemUserSe
 
 				var flag = window.confirm("确认要"+info+"此商家吗？");
 				if(flag){
-					systemUserService.updateStatus(status,$scope.entity.clientId).success(function(response){
+					systemUsersService.updateStatus(status,$scope.entity.clientId).success(function(response){
 						if(response.success){
 							$scope.reloadList();
 						}else{
@@ -21,14 +21,14 @@ app.controller('systemUserController',function($scope, $controller, systemUserSe
 			}
 			// 读取列表数据绑定到表单中
 			$scope.findAll = function() {
-				systemUserService.findAll().success(function(response) {
+				systemUsersService.findAll().success(function(response) {
 					$scope.list = response;
 				});
 			}
 
 			// 分页
 			$scope.findPage = function(page, rows) {
-				systemUserService.findPage(page, rows).success(function(response) {
+				systemUsersService.findPage(page, rows).success(function(response) {
 					$scope.list = response.rows;
 					$scope.paginationConf.totalItems = response.total;// 更新总记录数
 				});
@@ -36,18 +36,19 @@ app.controller('systemUserController',function($scope, $controller, systemUserSe
 
 			// 查询实体
 			$scope.findOne = function(id) {
-				systemUserService.findOne(id).success(function(response) {
+				systemUsersService.findOne(id).success(function(response) {
 					$scope.entity = response;
+
 				});
 			}
 
 			// 保存
 			$scope.save = function() {
-				//商家注册
-				systemUserService.add($scope.entity).success(function(response) {
+
+				systemUsersService.add($scope.entity).success(function(response) {
 					if (response.success) {
-						// 跳转到商品登录页面
-						location.href = "shoplogin.html";
+
+						alert(response.message);
 					} else {
 						alert(response.message);
 					}
@@ -57,7 +58,7 @@ app.controller('systemUserController',function($scope, $controller, systemUserSe
 			// 批量删除
 			$scope.dele = function() {
 				// 获取选中的复选框
-				systemUserService.dele($scope.selectIds).success(
+				systemUsersService.dele($scope.selectIds).success(
 						function(response) {
 							if (response.success) {
 								$scope.reloadList();// 刷新列表
@@ -70,11 +71,13 @@ app.controller('systemUserController',function($scope, $controller, systemUserSe
 
 			// 搜索
 			$scope.search = function(page, rows) {
-				systemUserService.search(page, rows, $scope.searchEntity).success(
+				systemUsersService.search(page, rows, $scope.searchEntity).success(
 						function(response) {
 							$scope.list = response.rows;
 							$scope.paginationConf.totalItems = response.total;// 更新总记录数
 						});
 			};
 
-		});
+
+
+});

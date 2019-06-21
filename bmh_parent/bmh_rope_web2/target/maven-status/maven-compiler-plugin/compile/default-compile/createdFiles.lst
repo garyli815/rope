@@ -1,5 +1,9 @@
 com\bmh\rope\controller\ClientController.class
 com\bmh\rope\controller\RopeController.class
 com\bmh\rope\controller\HistoryHoldsController.class
+com\bmh\rope\controller\systemPermissionController.class
+com\bmh\rope\controller\systemRoleController.class
+com\bmh\rope\UserDetailsServiceImpl.class
 com\bmh\rope\controller\BrandController.class
 com\bmh\rope\controller\IndexController.class
+com\bmh\rope\controller\systemUsersController.class

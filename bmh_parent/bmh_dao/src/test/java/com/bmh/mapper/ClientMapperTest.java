@@ -1,7 +1,9 @@
 package com.bmh.mapper;
 
+import com.alibaba.fastjson.JSON;
 import com.bmh.pojo.Client;
 import com.bmh.pojo.Rope;
+import com.bmh.pojo.Users;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,21 +15,23 @@ import java.util.List;
 import java.util.Map;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"classpath*:com/bmh/mapper/RopeMapper.xml", "classpath*:mybatis/SqlMapConfig.xml", "classpath*:spring/applicationContext-dao.xml"})
+@ContextConfiguration(locations = {"classpath*:com/bmh/mapper/*.xml", "classpath*:mybatis/SqlMapConfig.xml", "classpath*:spring/applicationContext-dao.xml"})
 
 public class ClientMapperTest {
     @Autowired
-    private ClientMapper clientMapper;
+    private UsersMapper usersMapper;
 
 
 
 
     @Test
     public void updateStatus() {
-    Map map = new HashMap<>();
-        map.put("status","1");
-        map.put("clientId","22");
-        clientMapper.updateStatus(map);
+
+/*        Users one = usersMapper.findOne("4");
+
+
+        System.out.println(one.toString());*/
+
     }
 
 

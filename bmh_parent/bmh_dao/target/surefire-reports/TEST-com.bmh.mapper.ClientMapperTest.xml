@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.bmh.mapper.ClientMapperTest" time="0.29" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.bmh.mapper.ClientMapperTest" time="0.005" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2018.3.5"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -12,7 +12,6 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="1750"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -42,14 +41,13 @@
     <property name="user.timezone" value="Asia/Shanghai"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="idea.launcher.bin.path" value="C:\MyProgram Files\SaaS\IDEA\IntelliJ IDEA 2018.3.5\bin"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="user.name" value="gary"/>
     <property name="java.class.path" value="C:\MyProgram Files\SaaS\Develop\maven\apache-maven-3.5.4\boot\plexus-classworlds-2.5.2.jar;C:\MyProgram Files\SaaS\IDEA\IntelliJ IDEA 2018.3.5\lib\idea_rt.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\MyProgram Files\SaaS\Develop\java\jdk1.8.0_141\jre"/>
-    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMainV2 org.codehaus.classworlds.Launcher -Didea.version=2018.3.5 -s C:\MyProgram Files\SaaS\Develop\maven\apache-maven-3.5.4\conf\settings.xml -Dmaven.repo.local=C:\MyWorkspace\Repository install"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.3.5 -s C:\MyProgram Files\SaaS\Develop\maven\apache-maven-3.5.4\conf\settings.xml -Dmaven.repo.local=C:\MyWorkspace\Repository install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -66,5 +64,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.bmh.mapper.ClientMapperTest" name="updateStatus" time="0.29"/>
+  <testcase classname="com.bmh.mapper.ClientMapperTest" name="updateStatus" time="0.005"/>
 </testsuite>

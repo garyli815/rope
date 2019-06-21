@@ -27,4 +27,8 @@ public interface RoleMapper {
     int updateByPrimaryKeySelective(Role record);
 
     int updateByPrimaryKey(Role record);
+
+    //---------查找详细信息---------------
+
+    List<Role> findByUsersId(String id);
 }

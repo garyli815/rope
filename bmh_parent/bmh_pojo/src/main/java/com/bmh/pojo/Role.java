@@ -1,6 +1,7 @@
 package com.bmh.pojo;
 
 import java.io.Serializable;
+import java.util.List;
 
 public class Role implements Serializable {
     private String id;
@@ -8,6 +9,16 @@ public class Role implements Serializable {
     private String rolename;
 
     private String roledesc;
+
+    private List<Permission> permissions;
+
+    public List<Permission> getPermissions() {
+        return permissions;
+    }
+
+    public void setPermissions(List<Permission> permissions) {
+        this.permissions = permissions;
+    }
 
     public String getId() {
         return id;

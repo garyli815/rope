@@ -1,6 +1,7 @@
 package com.bmh.pojo;
 
 import java.io.Serializable;
+import java.util.List;
 
 public class Users implements Serializable {
     private String id;
@@ -14,6 +15,17 @@ public class Users implements Serializable {
     private String phonenum;
 
     private Integer status;
+
+    //自己添加的角色
+    private List<Role> roles;
+
+    public List<Role> getRoles() {
+        return roles;
+    }
+
+    public void setRoles(List<Role> roles) {
+        this.roles = roles;
+    }
 
     public String getId() {
         return id;
@@ -61,5 +73,18 @@ public class Users implements Serializable {
 
     public void setStatus(Integer status) {
         this.status = status;
+    }
+
+    @Override
+    public String toString() {
+        return "Users{" +
+                "id='" + id + '\'' +
+                ", email='" + email + '\'' +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", phonenum='" + phonenum + '\'' +
+                ", status=" + status +
+                ", roles=" + roles +
+                '}';
     }
 }

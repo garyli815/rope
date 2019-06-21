@@ -2,8 +2,8 @@ package com.bmh.rope.controller;
 
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.bmh.pojo.Client;
-import com.bmh.rope.service.ClientService;
+import com.bmh.pojo.Role;
+import com.bmh.rope.service.SystemRoleService;
 import entity.PageResult;
 import entity.Result;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -19,19 +19,19 @@ import java.util.List;
  *
  */
 @RestController
-@RequestMapping("/systemUser")
-public class systemUserController {
+@RequestMapping("/systemRole")
+public class systemRoleController {
 
     @Reference
-    private ClientService systemUserService;
+    private SystemRoleService systemRoleService;
 
     /**
      * 返回全部列表
      * @return
      */
     @RequestMapping("/findAll")
-    public List<Client> findAll(){
-        return systemUserService.findAll();
+    public List<Role> findAll(){
+        return systemRoleService.findAll();
     }
 
 
@@ -41,18 +41,18 @@ public class systemUserController {
      */
     @RequestMapping("/findPage")
     public PageResult  findPage(int page,int rows){
-        return systemUserService.findPage(page, rows);
+        return systemRoleService.findPage(page, rows);
     }
 
     /**
      * 增加
-     * @param systemUser
+     * @param systemRole
      * @return
      */
     @RequestMapping("/add")
-    public Result add(@RequestBody Client systemUser){
+    public Result add(@RequestBody Role systemRole){
         try {
-            systemUserService.add(systemUser);
+            systemRoleService.add(systemRole);
             return new Result(true, "增加成功");
         } catch (Exception e) {
             e.printStackTrace();
@@ -62,13 +62,13 @@ public class systemUserController {
 
     /**
      * 修改
-     * @param systemUser
+     * @param systemRole
      * @return
      */
     @RequestMapping("/update")
-    public Result update(@RequestBody Client systemUser){
+    public Result update(@RequestBody Role systemRole){
         try {
-            systemUserService.update(systemUser);
+            systemRoleService.update(systemRole);
             return new Result(true, "修改成功");
         } catch (Exception e) {
             e.printStackTrace();
@@ -78,12 +78,12 @@ public class systemUserController {
     /**
      * 修改状态
      * @param
-     * @return  return $http.get('../systemUser/updateStatus/'+status+"/"+systemUserId);
+     * @return  return $http.get('../systemRole/updateStatus/'+status+"/"+systemRoleId);
      */
-    @RequestMapping("/updateStatus/{status}/{systemUserId}")
-    public Result updateStatus(@PathVariable String status,@PathVariable String systemUserId){
+    @RequestMapping("/updateStatus/{status}/{systemRoleId}")
+    public Result updateStatus(@PathVariable String status,@PathVariable String systemRoleId){
         try {
-            systemUserService.updateStatus(status,systemUserId);
+            systemRoleService.updateStatus(status,systemRoleId);
             return new Result(true, "修改成功");
         } catch (Exception e) {
             e.printStackTrace();
@@ -97,8 +97,8 @@ public class systemUserController {
      * @return
      */
     @RequestMapping("/findOne/{id}")
-    public Client findOne(@PathVariable String id){
-        return systemUserService.findOne(id);
+    public Role findOne(@PathVariable String id){
+        return systemRoleService.findOne(id);
     }
 
     /**
@@ -109,7 +109,7 @@ public class systemUserController {
     @RequestMapping("/delete")
     public Result delete(String [] ids){
         try {
-            systemUserService.delete(ids);
+            systemRoleService.delete(ids);
             return new Result(true, "删除成功");
         } catch (Exception e) {
             e.printStackTrace();
@@ -125,8 +125,8 @@ public class systemUserController {
      * @return
      */
     @RequestMapping("/search")
-    public PageResult search(@RequestBody Client systemUser, int page, int rows  ){
-        return systemUserService.findPage(systemUser, page, rows);
+    public PageResult search(@RequestBody Role systemRole, int page, int rows  ){
+        return systemRoleService.findPage(systemRole, page, rows);
     }
 
 }

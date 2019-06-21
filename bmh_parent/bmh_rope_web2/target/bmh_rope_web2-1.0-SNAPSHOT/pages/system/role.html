@@ -10,6 +10,7 @@
     <!-- Bootstrap 3.3.5 -->
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
     <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- DataTables -->
@@ -26,17 +27,20 @@
     <link rel="stylesheet" href="../../plugins/angularjs/pagination.css" >
 
     <script src="../../js/base_pagination.js"></script>
-    <script src="../../js/service/systemUserService.js"></script>
+    <script src="../../js/service/systemRoleService.js"></script>
     <script src="../../js/controller/baseController.js"></script>
-    <script src="../../js/controller/systemUserController.js"></script>
+    <script src="../../js/controller/systemRoleController.js"></script>
     <!--引入angularjs end-->
+    <!--树形表格-->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap-table/1.11.1/bootstrap-table.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/jquery-treegrid/0.2.0/css/jquery.treegrid.min.css">
 
 
 
-    <![endif]-->
 </head>
 
-<body class="hold-transition skin-blue sidebar-mini" ng-app="bmh" ng-controller="clientController" ng-init="searchEntity={status:'0'}" >
+<body class="hold-transition skin-blue sidebar-mini" ng-app="bmh" ng-controller="systemRoleController" >
 <div class="wrapper">
 
     <header class="main-header">
@@ -339,46 +343,81 @@
             <!-- sidebar menu: : style can be found in sidebar.less -->
             <ul class="sidebar-menu">
                 <li class="header">MAIN NAVIGATION</li>
-                <li class="active treeview">
+                <li class="treeview">
                     <a href="#">
-                        <i class="fa fa-dashboard"></i> <span>总体展示</span> <i class="fa fa-angle-left pull-right"></i>
+                        <i class="fa fa-dashboard"></i> <span>仪表盘</span> <i class="fa fa-angle-left pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
                         <li class="active">
-                            <a href="index.html"><i class="fa fa-circle-o"></i> 全国分布 </a>
+                            <a href="../../index.html"><i class="fa fa-circle-o"></i> 工作台 </a>
                         </li>
-
                         <li>
-                            <a href="#"><i class="fa fa-circle-o"></i>重点参数</i></a>
+                            <a href="#"><i class="fa fa-circle-o"></i>抱索力<i class="fa fa-angle-left pull-right"></i></a>
+                            <ul class="treeview-menu">
+                                <li>
+                                    <a href="../../pages/tables/baosuoli_data.html"><i class="fa fa-circle-o"></i>分析查询</a>
+                                </li>
+                                <li>
+                                    <a href="../../pages/tables/baosuoli_set.html"><i class="fa fa-circle-o"></i> 参数设置 </a>
+                                </li>
+                            </ul>
                         </li>
-
+                        <li>
+                            <a href="#"><i class="fa fa-circle-o"></i> 视频管理 </a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-circle-o"></i> 支架概览 </a>
+                        </li>
                     </ul>
                 </li>
                 <li class="treeview">
                     <a href="#">
-                        <i class="fa fa-dashboard"></i> <span>查询分析</span> <i class="fa fa-angle-left pull-right"></i>
+                        <i class="fa fa-files-o"></i>
+                        <span>维护录入</span>
+                        <span class="label label-primary pull-right">4</span>
                     </a>
                     <ul class="treeview-menu">
                         <li>
-                            <a href="pages/typein/day.html"><i class="fa fa-circle-o"></i> 备品备件</a>
+                            <a href="../../pages/typein/day.html"><i class="fa fa-circle-o"></i> 索道日运行</a>
                         </li>
                         <li>
-                            <a href="pages/typein/simple.html"><i class="fa fa-circle-o"></i> 检查记录</a>
+                            <a href="../../pages/typein/simple.html"><i class="fa fa-circle-o"></i> 常规检查</a>
+                        </li>
+                        <li>
+                            <a href="../../pages/layout/fixed.html"><i class="fa fa-circle-o"></i> 检修记录</a>
+                        </li>
+                        <li>
+                            <a href="../../pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> 故障记录</a>
+                        </li>
+                        <li>
+                            <a href="../../pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> 大保养记录</a>
+                        </li>
+                        <li>
+                            <a href="../../pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> 设备项设定</a>
+                        </li>
+                        <li>
+                            <a href="../../pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> 模板配置</a>
                         </li>
                     </ul>
+                </li>
+                <li>
+                    <a href="pages/widgets.html">
+                        <i class="fa fa-th"></i> <span>维护提示</span>
+                        <small class="label pull-right bg-green">new</small>
+                    </a>
                 </li>
                 <li class="treeview">
                     <a href="#">
                         <i class="fa fa-pie-chart"></i>
-                        <span>预测预警</span>
+                        <span>查询统计</span>
                         <i class="fa fa-angle-left pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
                         <li>
-                            <a href="pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> 预警记录 </a>
+                            <a href="../../pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> 常规检查查询</a>
                         </li>
                         <li>
-                            <a href="pages/charts/morris.html"><i class="fa fa-circle-o"></i> 维护建议</a>
+                            <a href="../../pages/charts/morris.html"><i class="fa fa-circle-o"></i> 检查项查询</a>
                         </li>
 
                     </ul>
@@ -391,27 +430,84 @@
                     </a>
                     <ul class="treeview-menu">
                         <li>
-                            <a href="pages/UI/general.html"><i class="fa fa-circle-o"></i> 资料库查询</a>
+                            <a href="../../pages/UI/general.html"><i class="fa fa-circle-o"></i> 资料库查询</a>
                         </li>
                         <li>
-                            <a href="pages/UI/icons.html"><i class="fa fa-circle-o"></i> 资料库管理</a>
+                            <a href="../../pages/UI/icons.html"><i class="fa fa-circle-o"></i> 资料库管理</a>
                         </li>
 
                     </ul>
                 </li>
-
                 <li class="treeview">
                     <a href="#">
-                        <i class="fa fa-share"></i> <span>客户管理</span>
+                        <i class="fa fa-edit"></i> <span>备品备件</span>
                         <i class="fa fa-angle-left pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
                         <li>
-                            <a href="/pages/manage/check.html"><i class="fa fa-circle-o"></i>客户审核</a>
+                            <a href="../../pages/forms/general.html"><i class="fa fa-circle-o"></i> 库存查询</a>
                         </li>
                         <li>
-                            <a href="/pages/manage/manage.html"><i class="fa fa-circle-o"></i>客户管理</a>
+                            <a href="../../pages/forms/advanced.html"><i class="fa fa-circle-o"></i> 入库管理</a>
+                        </li>
+                        <li>
+                            <a href="../../pages/forms/editors.html"><i class="fa fa-circle-o"></i> 出库管理 </a>
+                        </li>
+                        <li>
+                            <a href="../../pages/forms/editors.html"><i class="fa fa-circle-o"></i> 库存管理 </a>
+                        </li>
+                        <li>
+                            <a href="../../pages/forms/editors.html"><i class="fa fa-circle-o"></i> 查询统计 </a>
+                        </li>
+                        <li>
+                            <a href="../../pages/forms/editors.html"><i class="fa fa-circle-o"></i> 基础资料 </a>
+                        </li>
+                        <li>
+                            <a href="../../pages/forms/editors.html"><i class="fa fa-circle-o"></i> 库存审核 </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-table"></i> <span>票务分析</span>
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li>
+                            <a href="../../pages/tables/simple.html"><i class="fa fa-circle-o"></i> 票务分析</a>
+                        </li>
+                        <li>
+                            <a href="../../pages/tables/data.html"><i class="fa fa-circle-o"></i>日票务数据</a>
+                        </li>
+                        <li>
+                            <a href="../../pages/tables/data.html"><i class="fa fa-circle-o"></i>月票务数据</a>
+                        </li>
+                        <li>
+                            <a href="../../pages/tables/data.html"><i class="fa fa-circle-o"></i>年票务数据</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../../pages/calendar.html">
+                        <i class="fa fa-calendar"></i> <span>值班表</span>
+                        <small class="label pull-right bg-red">3</small>
+                    </a>
+                </li>
 
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-folder"></i> <span>信息管理</span>
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li>
+                            <a href="../../pages/examples/invoice.html"><i class="fa fa-circle-o"></i> 新增工作动态</a>
+                        </li>
+                        <li>
+                            <a href="../../pages/examples/profile.html"><i class="fa fa-circle-o"></i> 附件管理</a>
+                        </li>
+                        <li>
+                            <a href="../../pages/examples/login.html"><i class="fa fa-circle-o"></i> 信息删除</a>
                         </li>
 
                     </ul>
@@ -423,25 +519,38 @@
                     </a>
                     <ul class="treeview-menu">
                         <li>
-                            <a href="/pages/manage/check.html"><i class="fa fa-circle-o"></i>用户管理</a>
+                            <a href="#"><i class="fa fa-circle-o"></i>员工管理</a>
                         </li>
                         <li>
-                            <a href="/pages/manage/manage.html"><i class="fa fa-circle-o"></i>角色管理</a>
-
-                        </li>
-                        <li>
-                            <a href="/pages/manage/manage.html"><i class="fa fa-circle-o"></i>权限管理</a>
+                            <a href="#"><i class="fa fa-circle-o"></i>用户管理<i class="fa fa-angle-left pull-right"></i></a>
 
                         </li>
                         <li>
-                            <a href="/pages/manage/manage.html"><i class="fa fa-circle-o"></i>访问日志</a>
-
+                            <a href="#"><i class="fa fa-circle-o"></i>角色管理</a>
                         </li>
-
+                        <li>
+                            <a href="#"><i class="fa fa-circle-o"></i>部门管理</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-circle-o"></i>仪表盘设置</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-circle-o"></i>口令卡校正</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-circle-o"></i>ip配置</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-circle-o"></i>系统日志</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-circle-o"></i>业务系统管理</a>
+                        </li>
                     </ul>
                 </li>
+
                 <li>
-                    <a href="documentation/index.html"><i class="fa fa-book"></i> <span>帮助文档</span></a>
+                    <a href="../../documentation/index.html"><i class="fa fa-book"></i> <span>帮助文档</span></a>
                 </li>
                 <li class="header">LABELS</li>
                 <li>
@@ -482,126 +591,52 @@
             <div class="row">
                 <div class="col-xs-12">
 
-                    <!-- 编辑窗口  start-->
+                    <!-- 编辑窗口 start-->
 
-                    <!-- 商家详情 -->
-                    <div class="modal fade" id="sellerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" >
+                    <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" >
                             <div class="modal-content">
                                 <div class="modal-header">
+
                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                                    <h3 id="myModalLabel">商家详情</h3>
+                                    <h3 id="myModalLabel">用户添加</h3>
                                 </div>
+                                <!--图片上传  start-->
                                 <div class="modal-body">
 
-                                    <ul class="nav nav-tabs">
-                                        <li class="active"><a href="#home" data-toggle="tab">基本信息</a></li>
-                                        <li><a href="#linkman" data-toggle="tab">联系人</a></li>
-                                        <li><a href="#certificate" data-toggle="tab">证件</a></li>
-                                        <li><a href="#ceo" data-toggle="tab">法定代表人</a></li>
-                                        <li><a href="#bank" data-toggle="tab">开户行</a></li>
-                                    </ul>
+                                    <table class="table table-bordered table-striped table-hover dataTable">
+                                        <thead>
 
-                                    <!-- 选项卡开始 -->
-                                    <div id="myTabContent" class="tab-content">
-                                        <div class="tab-pane active in" id="home">
-                                            <br>
-                                            <table class="table table-bordered table-striped"  width="800px">
-                                                <tr>
-                                                    <td>公司名称</td>
-                                                    <td>{{entity.name}}</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>公司手机</td>
-                                                    <td>{{entity.mobile}}</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>公司电话</td>
-                                                    <td>{{entity.telephone}}</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>公司详细地址</td>
-                                                    <td>北京市西三旗建材城西路888号</td>
-                                                </tr>
-                                            </table>
-                                        </div>
-                                        <div class="tab-pane fade" id="linkman">
-                                            <br>
-                                            <table class="table table-bordered table-striped" >
-                                                <tr>
-                                                    <td>联系人姓名</td>
-                                                    <td>{{entity.linkmanName}}</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>联系人QQ</td>
-                                                    <td>78223322</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>联系人手机</td>
-                                                    <td>13500223322</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>联系人E-Mail</td>
-                                                    <td>78223322@qq.com</td>
-                                                </tr>
-                                            </table>
-                                        </div>
-                                        <div class="tab-pane fade" id="certificate">
-                                            <br>
-                                            <table class="table table-bordered table-striped" >
-                                                <tr>
-                                                    <td>营业执照号</td>
-                                                    <td>330106000109206</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>税务登记证号</td>
-                                                    <td>0292039393011</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>组织机构代码证号</td>
-                                                    <td>22320320302421</td>
-                                                </tr>
-                                            </table>
-                                        </div>
-                                        <div class="tab-pane fade" id="ceo">
-                                            <br>
-                                            <table class="table table-bordered table-striped" >
-                                                <tr>
-                                                    <td>法定代表人</td>
-                                                    <td>王小聪</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>法定代表人身份证号</td>
-                                                    <td>211030198503223122</td>
-                                                </tr>
-                                            </table>
-                                        </div>
-                                        <div class="tab-pane fade" id="bank">
-                                            <br>
-                                            <table class="table table-bordered table-striped" >
-                                                <tr>
-                                                    <td>开户行名称</td>
-                                                    <td>中国建设银行北京市分行</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>开户行支行</td>
-                                                    <td>海淀支行</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>银行账号</td>
-                                                    <td>999000111222</td>
-                                                </tr>
-                                            </table>
-                                        </div>
-                                    </div>
-                                    <!-- 选项卡结束 -->
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td align="center" >id</td>
+                                            <td>
+                                                <input class="form-control" ng-model="entity.id" >
+                                            </td>
 
+                                            <td align="center" >角色名称</td>
+                                            <td>
+                                                <input class="form-control" ng-model="entity.rolename" >
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td  align="center" >描述</td>
+                                            <td>
+                                                <input class="form-control" ng-model="entity.roledesc">
+                                            </td>
+
+                                        </tr>
+
+
+                                        </tbody>
+                                    </table>
 
                                 </div>
+                                <!--图片上传  end-->
+
                                 <div class="modal-footer">
-                                    <button class="btn btn-success" data-dismiss="modal" ng-click="updateStatus('1','审核通过')" aria-hidden="true">审核通过</button>
-                                    <button class="btn btn-danger"  data-dismiss="modal" ng-click="updateStatus('2','驳回')"  aria-hidden="true">审核未通过</button>
-                                    <button class="btn btn-danger" data-dismiss="modal" ng-click="updateStatus('3','关闭')"  aria-hidden="true">关闭商家</button>
+                                    <button class="btn btn-success" data-dismiss="modal" ng-click="save()" aria-hidden="true">保存</button>
                                     <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">关闭</button>
                                 </div>
                             </div>
@@ -610,75 +645,95 @@
 
                     <!--编辑窗口  end-->
 
-                    <!--展示表格 start-->
-                    <div class="box box-primary">
+                    <!-- 详情窗口 start-->
+
+                    <div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" >
+                            <div class="modal-content">
+                                <div class="modal-header">
+
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+                                </div>
+                                <div class="modal-body">
+                                    <!--树表格 -->
+                                    <div class="tab-pane" id="tab-treetable">
+                                        <table id="table" >
+
+                                        </table>
+                                    </div>
+                                    <!--树表格/-->
+
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button class="btn btn-success" data-dismiss="modal" ng-click="save()" aria-hidden="true">保存</button>
+                                    <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">关闭</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--详情窗口  end-->
+
+                    <div class="box">
+                        <div class="box-header">
+                            <h3 class="box-title">角色管理</h3>
+
+
+
+                            <div class="box-tools pull-right">
+                                <div class="has-feedback">
+
+                                    <!--新建 删除 开始-->
+                                    <button type="button" class="btn btn-default" title="新建" ng-click="entity={}" data-toggle="modal" data-target="#editModal"><i class="fa fa-file-o"></i> 新建</button>
+                                    <button type="button" class="btn btn-default" ng-click="dele()" title="删除"><i class="fa fa-trash-o"></i> 删除</button>
+                                    <button type="button" class="btn btn-default" title="刷新" onclick="window.location.reload();"><i class="fa fa-refresh"></i> 刷新</button>
+
+                                    <!--新建 删除 结束-->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.box-header -->
                         <div class="box-body">
 
-                            <!-- 数据表格 -->
-                            <div class="table-box">
 
-                                <!--工具栏-->
+                            <table id="example1" class="table table-bordered table-striped">
+                                <thead>
+                                <tr>
+                                    <th>
+                                        <input id="selall" type="checkbox" class="icheckbox_square-blue" disabled>
+                                    </th>
+                                    <th class="sorting">id</th>
+                                    <th class="sorting">角色名称</th>
+                                    <th class="sorting">描述</th>
+                                    <th class="sorting">操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr ng-repeat="pojo in list">
+                                    <td><input ng-click="updateSelection($event,pojo.id)" type="checkbox"></td>
+                                    <td>{{pojo.id}}</td>
+                                    <td>{{pojo.rolename}}</td>
+                                    <td>{{pojo.roledesc}}</td>
+                                    <td>
+                                        <button type="button" class="btn bg-olive btn-xs" ng-click="findOne(pojo.id)" data-toggle="modal" data-target="#detailModal">详情</button>
+                                        <button type="button" class="btn bg-olive btn-xs" ng-click="findOne(pojo.id)" data-toggle="modal" data-target="#editModal">修改</button>
+                                    </td>
+                                </tr>
 
-                                <div class="box-tools pull-right">
-                                    <div class="has-feedback">
-                                        公司名称：<input  >
-                                        店铺名称： <input  >
-                                        <button class="btn btn-default" >查询</button>
-                                    </div>
-                                </div>
-                                <!--工具栏/-->
-
-                                <!--数据列表-->
-                                <table id="dataList" class="table table-bordered table-striped table-hover dataTable">
-                                    <thead>
-                                    <tr>
-                                        <th class="" style="padding-right:0px">
-                                            <input id="selall" type="checkbox" class="icheckbox_square-blue">
-                                        </th>
-                                        <th class="sorting_asc">商家ID</th>
-                                        <th class="sorting">公司名称</th>
-                                        <th class="sorting">店铺名称</th>
-                                        <th class="sorting">联系人姓名</th>
-                                        <th class="sorting">公司电话</th>
-
-                                        <th class="text-center">操作</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr ng-repeat="pojo in list">
-                                        <td><input  type="checkbox"></td>
-                                        <td>{{pojo.clientId}}</td>
-                                        <td>{{pojo.name}}</td>
-                                        <td>{{pojo.nickName}}</td>
-                                        <td>{{pojo.linkmanName}}</td>
-                                        <td>{{pojo.telephone}}</td>
-
-                                        <td class="text-center">
-                                            <button type="button" class="btn bg-olive btn-xs" data-toggle="modal"
-                                                    ng-click="findOne(pojo.clientId)" data-target="#sellerModal" >详情</button>
-                                        </td>
-                                    </tr>
-
-                                    </tbody>
-                                </table>
-                                <!--数据列表/-->
-                                <tm-pagination conf="paginationConf"/>
-
-                            </div>
-                            <!-- 数据表格 /-->
-
-
-
+                                </tbody>
+                            </table>
+                            <tm-pagination conf="paginationConf" />
 
                         </div>
                         <!-- /.box-body -->
-                        <!--展示表格 end-->
-
-
                     </div>
-                    <!-- /.col -->
+                    <!-- /.box -->
                 </div>
-                <!-- /.row -->
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
         </section>
         <!-- /.content -->
     </div>
@@ -905,6 +960,115 @@ immediately after the control sidebar -->
 <script src="../../dist/js/app.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="../../dist/js/demo.js"></script>
+
+<!--树形表格-->
+<script src="https://cdn.bootcss.com/bootstrap-table/1.12.1/bootstrap-table.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap-table/1.12.0/extensions/treegrid/bootstrap-table-treegrid.js"></script>
+<script src="https://cdn.bootcss.com/jquery-treegrid/0.2.0/js/jquery.treegrid.min.js"></script>
+
+<script type="text/javascript">
+    var $table = $('#table');
+    var data = JSON.parse(
+        '[{"id":1,"pid":0,"name":"用户1","role":"","permission":"","detail":""},' +
+
+        '{"id":3,"pid":1,"name":"","role":"角色1","permission":"","detail":""},' +
+        '{"id":4,"pid":3,"name":"","role":"","permission":"权限1","detail":"权限1的详情"},' +
+
+        '{"id":6,"pid":2,"name":"","role":"角色2s3","permission":"","detail":""}]');
+
+    $(function() {
+
+        //控制台输出一下数据
+        console.log(data);
+
+        $table.bootstrapTable({
+            data:data,
+            idField: 'id',
+            dataType:'jsonp',
+            columns: [
+                { field: 'name',  title: '用户' },
+                { field: 'role',  title: '角色' },
+                { field: 'permission', title: '权限'  },
+                { field: 'detail', title: '描述'},
+            ],
+
+            // bootstrap-table-treegrid.js 插件配置 -- start
+
+            //在哪一列展开树形
+            treeShowField: 'name',
+            //指定父id列
+            parentIdField: 'pid',
+
+            onResetView: function(data) {
+                //console.log('load');
+                $table.treegrid({
+                    initialState: 'collapsed',// 所有节点都折叠
+                    // initialState: 'expanded',// 所有节点都展开，默认展开
+                    treeColumn: 1,
+                    // expanderExpandedClass: 'glyphicon glyphicon-minus',  //图标样式
+                    // expanderCollapsedClass: 'glyphicon glyphicon-plus',
+                    onChange: function() {
+                        $table.bootstrapTable('resetWidth');
+                    }
+                });
+
+                //只展开树形的第一级节点
+                $table.treegrid('getRootNodes').treegrid('expand');
+
+            }
+
+        });
+    });
+
+</script>
+<script>
+    /**
+     * 选中父项时，同时选中子项
+     * @param datas 所有的数据
+     * @param row 当前数据
+     * @param id id 字段名
+     * @param pid 父id字段名
+     */
+    function selectChilds(datas,row,id,pid,checked) {
+        for(var i in datas){
+            if(datas[i][pid] == row[id]){
+                datas[i].check=checked;
+                selectChilds(datas,datas[i],id,pid,checked);
+            };
+        }
+    }
+
+    function selectParentChecked(datas,row,id,pid){
+        for(var i in datas){
+            if(datas[i][id] == row[pid]){
+                datas[i].check=true;
+                selectParentChecked(datas,datas[i],id,pid);
+            };
+        }
+    }
+
+    function test() {
+        var selRows = $table.bootstrapTable("getSelections");
+        if(selRows.length == 0){
+            alert("请至少选择一行");
+            return;
+        }
+
+        var postData = "";
+        $.each(selRows,function(i) {
+            postData +=  this.id;
+            if (i < selRows.length - 1) {
+                postData += "， ";
+            }
+        });
+        alert("你选中行的 id 为："+postData);
+
+    }
+
+
+
+
+</script>
 
 </body>
 

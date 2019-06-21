@@ -1,5 +1,8 @@
 com\bmh\rope\service\impl\HistoryHoldsServiceImpl.class
 com\bmh\rope\service\impl\MaintainServiceImpl.class
 com\bmh\rope\service\impl\RopeServiceImpl.class
+com\bmh\rope\service\impl\SystemPermissionServiceImpl.class
+com\bmh\rope\service\impl\SystemRoleServiceImpl.class
+com\bmh\rope\service\impl\SystemUsersServiceImpl.class
 com\bmh\rope\service\impl\ClientServiceImpl.class
 com\bmh\rope\service\impl\BrandServiceImpl.class

@@ -27,4 +27,8 @@ public interface PermissionMapper {
     int updateByPrimaryKeySelective(Permission record);
 
     int updateByPrimaryKey(Permission record);
+
+    //---------查找详细信息---------------
+
+    List<Permission> findByRoleId(String id);
 }

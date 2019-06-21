@@ -27,4 +27,7 @@ public interface UsersMapper {
     int updateByPrimaryKeySelective(Users record);
 
     int updateByPrimaryKey(Users record);
+    //---------查找详细信息---------------
+
+    Users findOne(String id);
 }

@@ -1,6 +1,7 @@
 package com.bmh.pojo;
 
 import java.io.Serializable;
+import java.util.List;
 
 public class Rope implements Serializable {
 
@@ -31,6 +32,16 @@ public class Rope implements Serializable {
     private Long trainTotal;
 
     private String entryPeople;
+
+    private List<Permission> permissions;
+
+    public List<Permission> getPermissions() {
+        return permissions;
+    }
+
+    public void setPermissions(List<Permission> permissions) {
+        this.permissions = permissions;
+    }
 
     public Long getTrainTotal() {
         return trainTotal;

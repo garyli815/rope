@@ -1,7 +1,12 @@
-com\bmh\mapper\ClientMapper.class
 com\bmh\mapper\BoxBasicMapper.class
+com\bmh\mapper\RolePermissionMapper.class
+com\bmh\mapper\RoleMapper.class
+com\bmh\mapper\TbBrandMapper.class
+com\bmh\mapper\ClientMapper.class
+com\bmh\mapper\UsersMapper.class
+com\bmh\mapper\UsersRoleMapper.class
 com\bmh\mapper\MaintainMapper.class
 com\bmh\mapper\TbItemMapper.class
-com\bmh\mapper\TbBrandMapper.class
 com\bmh\mapper\RopeMapper.class
+com\bmh\mapper\PermissionMapper.class
 com\bmh\mapper\HistoryHoldsMapper.class

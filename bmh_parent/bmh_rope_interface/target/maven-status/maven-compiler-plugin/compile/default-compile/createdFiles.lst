@@ -1,5 +1,8 @@
+com\bmh\rope\service\SystemUsersService.class
+com\bmh\rope\service\ClientService.class
 com\bmh\rope\service\HistoryHoldsService.class
 com\bmh\rope\service\MaintainService.class
 com\bmh\rope\service\BrandService.class
 com\bmh\rope\service\RopeService.class
-com\bmh\rope\service\ClientService.class
+com\bmh\rope\service\SystemPermissionService.class
+com\bmh\rope\service\SystemRoleService.class
